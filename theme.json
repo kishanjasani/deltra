@@ -1,0 +1,65 @@
+{
+	"$schema": "http://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Deltra",
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	],
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "760px",
+			"wideSize": "1360px"
+		},
+		"typography": {
+		},
+		"color": {
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#FFFFFF",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#000000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#F3CD1E",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#072446",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#F3F4FE",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#494B83",
+					"name": "Indigo",
+					"slug": "indigo"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+	}
+}
