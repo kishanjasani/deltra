@@ -1,0 +1,31 @@
+{
+	"name": "kishanjasani/deltra",
+	"type": "wordpress-theme",
+	"description": "The beautiful WordPress theme",
+	"keywords": [
+		"WordPress",
+		"Themes"
+	],
+	"homepage": "https://github.com/kishanjasani/deltra",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Kishan Jasani",
+			"homepage": "https://github.com/kishanjasani/deltra/contributors.md"
+		}
+	],
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+		"wptrt/wpthemereview": "^0.2.1",
+		"squizlabs/php_codesniffer": "^3.5",
+		"wp-coding-standards/wpcs": "^2.2"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
