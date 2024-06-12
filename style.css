@@ -13,3 +13,13 @@
  * License:           GNU General Public License v2.0 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
+
+/**
+ * Font smoothing.
+ * This is a niche setting that will not be available via Global Styles.
+ * https://github.com/WordPress/gutenberg/issues/35934
+ */
+body {
+	-moz-osx-font-smoothing: var(--wp--custom--typography--font-smoothing--moz, auto);
+	-webkit-font-smoothing: var(--wp--custom--typography--font-smoothing--webkit, auto);
+}
