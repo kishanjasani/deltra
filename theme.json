@@ -175,6 +175,32 @@
 					"fontWeight": "400",
 					"letterSpacing": "0.03em"
 				}
+			},
+			"link": {
+				"color": {
+					"text": "inherit"
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--primary)"
+					},
+					"typography": {
+						"textDecoration": "underline"
+					}
+				},
+				":active": {
+					"color": {
+						"text": "var(--wp--preset--color--secondary)"
+					},
+					"typography": {
+						"textDecoration": "none"
+					}
+				},
+				":focus": {
+					"typography": {
+						"textDecoration": "underline dashed"
+					}
+				}
 			}
 		},
 		"blocks": {
