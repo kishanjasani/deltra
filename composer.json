@@ -1,0 +1,30 @@
+{
+	"name": "kishanjasani/deltra",
+	"type": "package",
+	"description": "Deltra is a WordPress block theme ready and able to be the foundation for your next great idea",
+	"keywords": [
+		"WordPress",
+		"Themes"
+	],
+	"homepage": "https://github.com/kishanjasani/deltra",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Kishan Jasani",
+			"homepage": "https://kishanjasani.com"
+		}
+	],
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.10",
+		"wp-coding-standards/wpcs": "^3.1"
+	},
+	"scripts": {
+		"format": "phpcbf --standard=phpcs.xml.dist --report-summary --report-source",
+		"lint": "phpcs --standard=phpcs.xml.dist"
+	}
+}
