@@ -1,0 +1,329 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
+		"color": {
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#FEFEFE",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#050B36",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#2849F1",
+					"name": "Accent 1",
+					"slug": "accent-1"
+				},
+				{
+					"color": "#8AD4FD",
+					"name": "Accent 2",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#F4F6FC",
+					"name": "Accent 3",
+					"slug": "accent-3"
+				},
+				{
+					"color": "#353A5E",
+					"name": "Accent 4",
+					"slug": "accent-4"
+				},
+				{
+					"color": "#676A85",
+					"name": "Accent 5",
+					"slug": "accent-5"
+				},
+				{
+					"color": "#A5A8B8",
+					"name": "Accent 6",
+					"slug": "accent-6"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "800px",
+			"wideSize": "1200px"
+		},
+		"spacing": {
+			"defaultSpacingSizes": false,
+			"spacingSizes": [
+				{
+					"name": "20",
+					"size": "0.44rem",
+					"slug": "20"
+				},
+				{
+					"name": "30",
+					"size": "0.67rem",
+					"slug": "30"
+				},
+				{
+					"name": "40",
+					"size": "1rem",
+					"slug": "40"
+				},
+				{
+					"name": "50",
+					"size": "1.5rem",
+					"slug": "50"
+				},
+				{
+					"name": "60",
+					"size": "2.25rem",
+					"slug": "60"
+				},
+				{
+					"name": "70",
+					"size": "3.38rem",
+					"slug": "70"
+				},
+				{
+					"name": "80",
+					"size": "5.06rem",
+					"slug": "80"
+				},
+				{
+					"name": "X-Small",
+					"size": "clamp(0.5rem, 0.35rem + 1vw, 1rem)",
+					"slug": "x-small"
+				},
+				{
+					"name": "Small",
+					"size": "clamp(0.85rem, 0.62rem + 1.2vw, 1.5rem)",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "clamp(1rem, 0.64rem + 1.82vw, 2rem)",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "clamp(1.25rem, 0.62rem + 3.19vw, 3rem)",
+					"slug": "large"
+				},
+				{
+					"name": "X-Large",
+					"size": "clamp(1.5rem, 0.6rem + 4.55vw, 4rem)",
+					"slug": "x-large"
+				},
+				{
+					"name": "XX-Large",
+					"size": "clamp(2rem, 0.55rem + 7.28vw, 6rem)",
+					"slug": "xx-large"
+				},
+				{
+					"name": "Giant",
+					"size": "clamp(2rem, 0rem + 10vw, 7.5rem)",
+					"slug": "giant"
+				}
+			],
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"lineHeight": true,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-500italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-600.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-600italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-700italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-800.woff2"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-900.woff2"
+							]
+						}
+					],
+					"name": "Primary",
+					"slug": "primary",
+					"fontFamily": "Poppins, sans-serif"
+				},
+				{
+					"name": "Fira Code",
+					"slug": "fira-code",
+					"fontFamily": "\"Fira Code\", Poppins, sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2"
+							],
+							"fontWeight": "300 700",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Code\""
+						}
+					]
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"max": "1rem",
+						"min": "0.875rem"
+					},
+					"name": "X-Small",
+					"size": "0.875rem",
+					"slug": "x-small"
+				},
+				{
+					"fluid": {
+						"max": "1.125rem",
+						"min": "1rem"
+					},
+					"name": "Small",
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"max": "1.5rem",
+						"min": "1.125rem"
+					},
+					"name": "Medium",
+					"size": "1.125rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "2.25rem",
+						"min": "1.25rem"
+					},
+					"name": "Large",
+					"size": "1.25rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "2.625rem",
+						"min": "1.5rem"
+					},
+					"name": "X-Large",
+					"size": "1.5rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"max": "4rem",
+						"min": "2rem"
+					},
+					"name": "XX-Large",
+					"size": "2rem",
+					"slug": "xx-large"
+				},
+				{
+					"fluid": {
+						"max": "6rem",
+						"min": "3rem"
+					},
+					"name": "Giant",
+					"size": "3rem",
+					"slug": "giant"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
+		}
+	}
+}
