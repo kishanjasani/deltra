@@ -139,6 +139,7 @@
 		"typography": {
 			"defaultFontSizes": false,
 			"lineHeight": true,
+			"fluid": true,
 			"fontFamilies": [
 				{
 					"fontFace": [
@@ -254,6 +255,12 @@
 				}
 			],
 			"fontSizes": [
+				{
+					"fluid": false,
+					"name": "X-Small (Fixed)",
+					"size": "0.875rem",
+					"slug": "x-small-fixed"
+				},
 				{
 					"fluid": {
 						"max": "1rem",
