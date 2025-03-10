@@ -31,8 +31,9 @@
 				<p class="has-text-align-center has-x-small-font-size">
 					<?php
 					printf(
+						// translators: %1$s is the current year, %2$s is the site name.
 						esc_html__( '&copy; %1$s %2$s. All rights reserved.', 'deltra' ),
-						esc_html( date( 'Y' ) ),
+						esc_html( gmdate( 'Y' ) ),
 						esc_html( get_bloginfo( 'name' ) )
 					);
 					?>
