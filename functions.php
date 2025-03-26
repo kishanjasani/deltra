@@ -66,12 +66,24 @@ function deltra_register_block_pattern_categories() {
 	foreach ( $categories as $key => $data ) {
 		register_block_pattern_category(
 			$key,
-			array(
+			[
 				'label'       => $data['label'],
 				'description' => $data['description'],
-			)
+			]
 		);
 	}
 }
 
 add_action( 'init', 'deltra_register_block_pattern_categories' );
+
+function deltra_enqueue_block_variations() {
+	wp_enqueue_script(
+		'deltra-block-variations',
+		get_template_directory_uri() . '/assets/js/variations.js',
+		[ 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ],
+		filemtime( get_template_directory() . '/assets/js/variations.js' ),
+		true
+	);
+}
+
+add_action( 'enqueue_block_editor_assets', 'deltra_enqueue_block_variations' );
