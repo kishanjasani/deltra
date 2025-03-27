@@ -76,6 +76,11 @@ function deltra_register_block_pattern_categories() {
 
 add_action( 'init', 'deltra_register_block_pattern_categories' );
 
+/**
+ * Enqueues a JavaScript file for registering custom block variations in the block editor.
+ *
+ * @return void
+ */
 function deltra_enqueue_block_variations() {
 	wp_enqueue_script(
 		'deltra-block-variations',
