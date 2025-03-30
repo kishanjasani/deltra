@@ -56,6 +56,11 @@
 					"color": "#E3E8F0",
 					"name": "Accent 8",
 					"slug": "accent-8"
+				},
+				{
+					"color": "#FADCD5",
+					"name": "Accent 9",
+					"slug": "accent-9"
 				}
 			]
 		},
