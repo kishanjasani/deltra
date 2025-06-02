@@ -9,31 +9,33 @@ The Solid FSE Theme for Modern WordPress Creativity
 - Developer-friendly setup with linting and formatting tools
 
 ## 📁 Folder Structure
-├── assets/ # Fonts, images, JS
+```php
+.
+├── assets/
 │ ├── fonts/
 │ ├── images/
 │ └── js/
-├── fonts/ # (Optional additional font directory)
-├── parts/ # Template parts like header, footer
+├── fonts/
+├── parts/
 │ ├── footer.html
 │ └── header.html
-├── patterns/ # Block patterns
-├── templates/ # Template files
-├── .editorconfig # Editor configuration
+├── patterns/
+├── templates/
+├── .editorconfig
 ├── .gitignore
 ├── .nvmrc
-├── .stylelintrc.json # Stylelint config
+├── .stylelintrc.json
 ├── LICENSE
 ├── README.md
-├── composer.json # PHP dependencies
+├── composer.json
 ├── composer.lock
-├── functions.php # Theme functions
-├── package.json # Node.js dependencies and scripts
+├── functions.php
+├── package.json
 ├── package-lock.json
-├── phpcs.xml.dist # PHP CodeSniffer config
-├── style.css # Theme metadata and fallback styles
-└── theme.json # FSE config
-
+├── phpcs.xml.dist
+├── style.css
+└── theme.json
+```
 
 ---
 
