@@ -9,6 +9,8 @@
  * @package deltra
  */
 
+use \App\Deltra;
+
 if ( ! function_exists( 'deltra_setup' ) ) {
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -27,6 +29,15 @@ if ( ! function_exists( 'deltra_setup' ) ) {
 
 		// Add theme support for post formats.
 		add_theme_support( 'post-formats', array( 'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video' ) );
+
+		if ( is_readable( __DIR__ . '/vendor/autoload.php' ) ) {
+			require_once __DIR__ . '/vendor/autoload.php';
+		}
+
+		require_once get_template_directory() . '/helpers.php';
+
+		// Initialize the Deltra theme.
+		new Deltra();
 	}
 }
 
@@ -121,7 +132,7 @@ function deltra_enqueue_block_variations() {
 add_action( 'enqueue_block_editor_assets', 'deltra_enqueue_block_variations' );
 
 // Registers block binding sources.
-if ( ! function_exists( 'deltra_register_block_bindings' ) ) :
+if ( ! function_exists( 'deltra_register_block_bindings' ) ) {
 	/**
 	 * Registers the post format block binding source.
 	 *
@@ -138,11 +149,12 @@ if ( ! function_exists( 'deltra_register_block_bindings' ) ) :
 			)
 		);
 	}
-endif;
+}
+
 add_action( 'init', 'deltra_register_block_bindings' );
 
 // Registers block binding callback function for the post format name.
-if ( ! function_exists( 'deltra_format_binding' ) ) :
+if ( ! function_exists( 'deltra_format_binding' ) ) {
 	/**
 	 * Callback function for the post format name block binding source.
 	 *
@@ -157,4 +169,4 @@ if ( ! function_exists( 'deltra_format_binding' ) ) :
 			return get_post_format_string( $post_format_slug );
 		}
 	}
-endif;
+}
