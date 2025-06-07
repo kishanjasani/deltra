@@ -9,11 +9,36 @@
  * @package deltra
  */
 
+if ( ! function_exists( 'deltra_setup' ) ) {
+	/**
+	 * Sets up theme defaults and registers support for various WordPress features.
+	 *
+	 * This function is hooked into the `after_setup_theme` action, which runs
+	 * after the theme is initialized but before any headers are sent.
+	 *
+	 * @since Deltra 1.0
+	 *
+	 * @return void
+	 */
+	function deltra_setup() {
+
+		// Remove core block patterns.
+		remove_theme_support( 'core-block-patterns' );
+
+		// Add theme support for post formats.
+		add_theme_support( 'post-formats', array( 'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video' ) );
+	}
+}
+
+add_action( 'after_setup_theme', 'deltra_setup' );
+
 /**
  * Registers custom block pattern categories.
  *
  * Register block pattern categories
  * https://developer.wordpress.org/reference/functions/register_block_pattern_category/
+ *
+ * @since Deltra 1.0
  *
  * @return void
  */
@@ -79,6 +104,8 @@ add_action( 'init', 'deltra_register_block_pattern_categories' );
 /**
  * Enqueues a JavaScript file for registering custom block variations in the block editor.
  *
+ * @since Deltra 1.0
+ *
  * @return void
  */
 function deltra_enqueue_block_variations() {
@@ -92,3 +119,42 @@ function deltra_enqueue_block_variations() {
 }
 
 add_action( 'enqueue_block_editor_assets', 'deltra_enqueue_block_variations' );
+
+// Registers block binding sources.
+if ( ! function_exists( 'deltra_register_block_bindings' ) ) :
+	/**
+	 * Registers the post format block binding source.
+	 *
+	 * @since Deltra 1.0
+	 *
+	 * @return void
+	 */
+	function deltra_register_block_bindings() {
+		register_block_bindings_source(
+			'deltra/format',
+			array(
+				'label'              => _x( 'Post format name', 'Label for the block binding placeholder in the editor', 'deltra' ),
+				'get_value_callback' => 'deltra_format_binding',
+			)
+		);
+	}
+endif;
+add_action( 'init', 'deltra_register_block_bindings' );
+
+// Registers block binding callback function for the post format name.
+if ( ! function_exists( 'deltra_format_binding' ) ) :
+	/**
+	 * Callback function for the post format name block binding source.
+	 *
+	 * @since Deltra 1.0
+	 *
+	 * @return string|void Post format name, or nothing if the format is 'standard'.
+	 */
+	function deltra_format_binding() {
+		$post_format_slug = get_post_format();
+
+		if ( $post_format_slug && 'standard' !== $post_format_slug ) {
+			return get_post_format_string( $post_format_slug );
+		}
+	}
+endif;
