@@ -1,0 +1,91 @@
+/* Button - Secondary Style */
+
+.wp-block-button.is-style-button-secondary .wp-element-button {
+	color: var(--wp--preset--color--contrast);
+	background-color: var(--wp--preset--color--accent-2);
+
+}
+
+.wp-block-button.is-style-button-secondary .wp-element-button:hover {
+	background: var(--wp--preset--color--accent-7);
+	color: var(--wp--preset--color--contrast);
+}
+
+/* Button - Tertiary Style */
+
+.wp-block-button.is-style-button-tertiary .wp-element-button {
+	color: var(--wp--preset--color--contrast);
+	background-color: var(--wp--preset--color--accent-7);
+}
+
+.wp-block-button.is-style-button-tertiary .wp-element-button:hover {
+	background: var(--wp--preset--color--accent-2);
+	color: var(--wp--preset--color--contrast);
+}
+
+
+/* Button - Foreground */
+.wp-block-button.is-style-button-foreground .wp-element-button {
+	color: var(--wp--preset--color--base);
+	background-color: var(--wp--preset--color--contrast);
+
+}
+
+.wp-block-button.is-style-button-foreground:hover .wp-element-button:hover {
+	background: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--contrast);
+}
+
+/* Button - Background */
+.wp-block-button.is-style-button-background .wp-element-button {
+	color: var(--wp--preset--color--contrast);
+	background-color: var(--wp--preset--color--base);
+
+}
+
+.is-style-button-background .wp-element-button:hover {
+	background: var(--wp--preset--color--contrast);
+	color: var(--wp--preset--color--base);
+}
+
+/* Button - Text Style */
+
+.wp-block-button.is-style-button-text .wp-element-button {
+	background-color: transparent;
+	text-decoration: underline;
+	color: inherit;
+}
+
+.wp-block-button.is-style-button-text .wp-element-button:hover {
+	background-color: transparent;
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Button - Outline Style */
+
+.wp-block-button.is-style-outline .wp-element-button {
+	border: none;
+	background-color: transparent;
+	outline: 2px solid currentColor;
+	outline-offset: -2px;
+	padding-inline: clamp(1.6rem, 1.70vw, 3rem);
+	padding-block: 0.7rem;
+}
+
+.wp-block-button.is-style-outline .wp-element-button:hover {
+	color: var(--wp--preset--color--base);
+	outline-color: var(--wp--preset--color--contrast);
+	background-color: var(--wp--preset--color--contrast);
+	text-decoration: none;
+}
+
+.wp-block-button.is-style-outline .has-text-color.wp-element-button:hover {
+	color: var(--wp--preset--color--base);
+}
+
+html [class*="has-foreground-"][class*="background-color"] > .wp-block-button.is-style-outline .wp-element-button:hover {
+	background-color: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--contrast);
+	outline: 2px solid var(--wp--preset--color--base);
+}
