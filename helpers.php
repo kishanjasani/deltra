@@ -1,6 +1,20 @@
 <?php
 
 if ( ! function_exists( 'deltra_config' ) ) {
+	/**
+	 * Retrieves configuration values from the Deltra theme's config file.
+	 *
+	 * This function allows you to access configuration settings defined in the
+	 * theme's config.php file. You can retrieve a specific value by providing a
+	 * key, or return the entire configuration array if no key is provided.
+	 *
+	 * @since Deltra 1.0
+	 *
+	 * @param string|null $key     The configuration key to retrieve (e.g., 'paths.parent').
+	 * @param mixed       $default Default value to return if the key does not exist.
+	 *
+	 * @return mixed The configuration value for the given key, or the default value if not found.
+	 */
 	function deltra_config( $key = null, $default = null ) {
 		static $config;
 

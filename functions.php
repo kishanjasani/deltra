@@ -97,6 +97,11 @@ function deltra_register_block_pattern_categories() {
 		],
 	];
 
+	/**
+	 * Filter to modify the block pattern categories.
+	 *
+	 * This filter allows themes and plugins to add, remove, or modify the default block pattern categories.
+	 */
 	$categories = apply_filters( 'deltra_block_pattern_categories', $categories );
 
 	foreach ( $categories as $key => $data ) {

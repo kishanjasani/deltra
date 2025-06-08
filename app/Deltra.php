@@ -3,6 +3,15 @@ namespace App;
 
 class Deltra {
 
+	/**
+	 * Holds the registered services for the Deltra theme.
+	 *
+	 * This array will contain instances of all services registered by the theme.
+	 *
+	 * @since Deltra 1.0
+	 *
+	 * @var array
+	 */
 	protected array $services = [];
 
 	/**
