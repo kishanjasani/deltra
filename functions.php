@@ -34,7 +34,7 @@ if ( ! function_exists( 'deltra_setup' ) ) {
 			require_once __DIR__ . '/vendor/autoload.php';
 		}
 
-		require_once deltra_config( 'paths.parent' ) . '/helpers.php';
+		require_once get_template_directory() . '/helpers.php';
 
 		// Initialize the Deltra theme.
 		new Deltra();
