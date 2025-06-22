@@ -19,7 +19,7 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 
 == Copyright ==
 
-Deltra WordPress Theme, (C) 2025 kishanjasani.in
+Deltra WordPress Theme, (C) 2025 Kishan Jasani
 Deltra is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
