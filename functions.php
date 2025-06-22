@@ -34,7 +34,7 @@ if ( ! function_exists( 'deltra_setup' ) ) {
 			require_once __DIR__ . '/vendor/autoload.php';
 		}
 
-		require_once get_template_directory() . '/helpers.php';
+		require_once deltra_config( 'paths.parent' ) . '/helpers.php';
 
 		// Initialize the Deltra theme.
 		new Deltra();
@@ -129,7 +129,7 @@ function deltra_enqueue_block_variations() {
 		'deltra-block-variations',
 		deltra_config( 'urls.parent' ) . '/assets/js/variations.js',
 		[ 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ],
-		filemtime( get_template_directory() . '/assets/js/variations.js' ),
+		filemtime( deltra_config( 'paths.parent' ) . '/assets/js/variations.js' ),
 		true
 	);
 }
