@@ -1,6 +1,19 @@
 <?php
+/**
+ * Deltra Theme Block Style Assets Service
+ *
+ * @package deltra
+ */
+
 namespace App\Services;
 
+/**
+ * BlockStyleAssets: This service handles the enqueuing of custom block styles
+ * for both parent and child themes in the Deltra theme.
+ *
+ * This class is responsible for registering and enqueuing custom block styles
+ * defined in the assets/styles directory of both the parent and child themes.
+ */
 class BlockStyleAssets {
 
 	/**
@@ -42,8 +55,8 @@ class BlockStyleAssets {
 			$child_dir  = "{ $child_path }/" . deltra_config( 'assets.styles_dir' );
 			$child_uri  = "{ $child_url }/" . deltra_config( 'assets.styles_dir' );
 
-			$child_files      = glob( "{ $child_dir }/*.css" );
-			$child_css_names  = array_flip( array_map( fn( $f ) => basename( $f, '.css' ), $child_files ) );
+			$child_files     = glob( "{ $child_dir }/*.css" );
+			$child_css_names = array_flip( array_map( fn( $f ) => basename( $f, '.css' ), $child_files ) );
 		}
 
 		foreach ( $parent_css as $file ) {
@@ -73,5 +86,4 @@ class BlockStyleAssets {
 			}
 		}
 	}
-
 }

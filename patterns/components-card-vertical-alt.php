@@ -5,9 +5,7 @@
  * Categories: components
  * Description: Alt vertical card components - With background color.
  *
- * @package    KishanJasani
- * @subpackage deltra
- * @since      deltra 1.0
+ * @package    deltra
  */
 
 ?>
@@ -16,7 +14,7 @@
 <div class="wp-block-group has-border-color has-accent-4-border-color has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="border-width:1px;border-radius:8px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)">
 	<!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 	<figure class="wp-block-image size-full">
-		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/macbook.webp" alt="Home office with a wooden desk placed near a large window allowing natural light to flood the room." style="aspect-ratio:16/9;object-fit:cover"/>
+		<img src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/reading-with-coffee-life-journey.webp" alt="Home office with a wooden desk placed near a large window allowing natural light to flood the room." style="aspect-ratio:16/9;object-fit:cover"/>
 	</figure>
 	<!-- /wp:image -->
 

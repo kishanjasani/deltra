@@ -9,7 +9,7 @@
  * @package deltra
  */
 
-use \App\Deltra;
+use App\Deltra;
 
 if ( ! function_exists( 'deltra_setup' ) ) {
 	/**
@@ -127,7 +127,7 @@ add_action( 'init', 'deltra_register_block_pattern_categories' );
 function deltra_enqueue_block_variations() {
 	wp_enqueue_script(
 		'deltra-block-variations',
-		get_template_directory_uri() . '/assets/js/variations.js',
+		deltra_config( 'urls.parent' ) . '/assets/js/variations.js',
 		[ 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ],
 		filemtime( get_template_directory() . '/assets/js/variations.js' ),
 		true

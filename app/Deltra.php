@@ -1,6 +1,19 @@
 <?php
+/**
+ * Deltra Theme Main Class
+ *
+ * This class initializes the Deltra theme and registers its services.
+ *
+ * @package deltra
+ */
+
 namespace App;
 
+/**
+ * Deltra: The main class for the Deltra theme.
+ *
+ * This class is responsible for initializing the theme and registering its services.
+ */
 class Deltra {
 
 	/**
@@ -36,7 +49,7 @@ class Deltra {
 		// Future services can be added here.
 		$services = [
 			\App\Services\BlockStyleRegister::class,
-			\App\Services\BlockStyleAssets::class
+			\App\Services\BlockStyleAssets::class,
 		];
 
 		foreach ( $services as $service_class ) {

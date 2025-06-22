@@ -5,9 +5,7 @@
  * Categories: social-logos
  * Description: Social logo like Facebook, WordPress, GitHub.
  *
- * @package KishanJasani
- * @subpackage deltra
- * @since deltra 1.0
+ * @package deltra
  */
 
 ?>
@@ -24,7 +22,7 @@
 			<!-- wp:group {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
 				<!-- wp:image {"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"0px"},"layout":{"selfStretch":"fit","flexSize":null},"color":{"duotone":"var:preset|duotone|dark"}},"className":"wp-duotone-dark deltra-icon"} -->
-				<figure class="wp-block-image size-full is-resized has-custom-border wp-duotone-dark deltra-icon"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
+				<figure class="wp-block-image size-full is-resized has-custom-border wp-duotone-dark deltra-icon"><img src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:group -->
@@ -32,7 +30,7 @@
 			<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"},"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 			<div class="wp-block-group alignwide">
 				<!-- wp:image {"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fit","flexSize":null},"border":{"radius":"0px"},"color":{"duotone":"var:preset|duotone|dark"}},"className":"wp-duotone-dark deltra-icon"} -->
-				<figure class="wp-block-image size-full is-resized has-custom-border wp-duotone-dark deltra-icon"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
+				<figure class="wp-block-image size-full is-resized has-custom-border wp-duotone-dark deltra-icon"><img src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:group -->
@@ -40,7 +38,7 @@
 			<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"},"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 			<div class="wp-block-group alignwide">
 				<!-- wp:image {"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fit","flexSize":null},"border":{"radius":"0px"},"color":{"duotone":"var:preset|duotone|dark"}},"className":"wp-duotone-dark deltra-icon"} -->
-				<figure class="wp-block-image size-full is-resized has-custom-border wp-duotone-dark deltra-icon"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
+				<figure class="wp-block-image size-full is-resized has-custom-border wp-duotone-dark deltra-icon"><img src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:group -->
@@ -48,7 +46,7 @@
 			<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"},"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 			<div class="wp-block-group alignwide">
 				<!-- wp:image {"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fit","flexSize":null},"border":{"radius":"0px"},"color":{"duotone":"var:preset|duotone|dark"}},"className":"wp-duotone-dark deltra-icon"} -->
-				<figure class="wp-block-image size-full is-resized has-custom-border wp-duotone-dark deltra-icon"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
+				<figure class="wp-block-image size-full is-resized has-custom-border wp-duotone-dark deltra-icon"><img src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:group -->
@@ -56,7 +54,7 @@
 			<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"},"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 			<div class="wp-block-group alignwide">
 				<!-- wp:image {"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fit","flexSize":null},"border":{"radius":"0px"},"color":{"duotone":"var:preset|duotone|dark"}}} -->
-				<figure class="wp-block-image size-full is-resized has-custom-border" id="wp-duotone-dark-deltra-icon"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
+				<figure class="wp-block-image size-full is-resized has-custom-border" id="wp-duotone-dark-deltra-icon"><img src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:group -->
@@ -64,7 +62,7 @@
 			<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"},"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 			<div class="wp-block-group alignwide">
 				<!-- wp:image {"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fit","flexSize":null},"border":{"radius":"0px"},"color":{"duotone":"var:preset|duotone|dark"}},"className":"wp-duotone-dark deltra-icon"} -->
-				<figure class="wp-block-image size-full is-resized has-custom-border wp-duotone-dark deltra-icon"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
+				<figure class="wp-block-image size-full is-resized has-custom-border wp-duotone-dark deltra-icon"><img src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:group -->
@@ -72,7 +70,7 @@
 			<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"},"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 			<div class="wp-block-group alignwide">
 				<!-- wp:image {"width":"100px","sizeSlug":"full","linkDestination":"none","style":{"layout":{"selfStretch":"fit","flexSize":null},"border":{"radius":"0px"},"color":{"duotone":"var:preset|duotone|dark"}},"className":"wp-duotone-dark deltra-icon"} -->
-				<figure class="wp-block-image size-full is-resized has-custom-border wp-duotone-dark deltra-icon"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
+				<figure class="wp-block-image size-full is-resized has-custom-border wp-duotone-dark deltra-icon"><img src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/deltra.png" alt="" style="border-radius:0px;width:100px"/></figure>
 				<!-- /wp:image -->
 			</div>
 			<!-- /wp:group -->

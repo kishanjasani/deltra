@@ -6,9 +6,7 @@
  * Block Types: core/query
  * Description: A list of posts with title and post date with list view-alt.
  *
- * @package    KishanJasani
- * @subpackage deltra
- * @since      deltra 1.0
+ * @package    deltra
  */
 
 ?>

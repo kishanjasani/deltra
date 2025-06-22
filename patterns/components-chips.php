@@ -5,9 +5,7 @@
  * Categories: components
  * Description: A chips components.
  *
- * @package    KishanJasani
- * @subpackage deltra
- * @since      deltra 1.0
+ * @package    deltra
  */
 
 ?>

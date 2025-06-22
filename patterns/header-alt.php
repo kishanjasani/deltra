@@ -6,9 +6,7 @@
  * Block Types: core/template-part/header
  * Description: Alt Header with logo, site title and navigation.
  *
- * @package KishanJasani
- * @subpackage deltra
- * @since deltra 1.0
+ * @package deltra
  */
 
 ?>

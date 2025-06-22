@@ -1,4 +1,9 @@
 <?php
+/**
+ * Deltra Theme Helpers
+ *
+ * @package deltra
+ */
 
 if ( ! function_exists( 'deltra_config' ) ) {
 	/**
@@ -10,19 +15,19 @@ if ( ! function_exists( 'deltra_config' ) ) {
 	 *
 	 * @since Deltra 1.0
 	 *
-	 * @param string|null $key     The configuration key to retrieve (e.g., 'paths.parent').
-	 * @param mixed       $default Default value to return if the key does not exist.
+	 * @param string|null $key           The configuration key to retrieve (e.g., 'paths.parent').
+	 * @param mixed       $default_value Default value to return if the key does not exist.
 	 *
 	 * @return mixed The configuration value for the given key, or the default value if not found.
 	 */
-	function deltra_config( $key = null, $default = null ) {
+	function deltra_config( $key = null, $default_value = null ) {
 		static $config;
 
 		if ( ! $config ) {
 			$config = require get_template_directory() . '/config.php';
 		}
 
-		if ( $key === null ) {
+		if ( null === $key ) {
 			return $config;
 		}
 
@@ -34,7 +39,7 @@ if ( ! function_exists( 'deltra_config' ) ) {
 			if ( is_array( $value ) && array_key_exists( $segment, $value ) ) {
 				$value = $value[ $segment ];
 			} else {
-				return $default;
+				return $default_value;
 			}
 		}
 
