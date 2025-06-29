@@ -62,7 +62,10 @@
 					"name": "Accent 9",
 					"slug": "accent-9"
 				}
-			]
+			],
+			"custom": true,
+			"customGradient": true,
+            "link": true
 		},
 		"layout": {
 			"contentSize": "800px",
@@ -339,7 +342,9 @@
 					"size": "3rem",
 					"slug": "giant"
 				}
-			]
+			],
+			"customFontSize": true,
+			"dropCap": true
 		}
 	},
 	"styles": {
