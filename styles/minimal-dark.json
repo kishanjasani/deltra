@@ -1,0 +1,95 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Minimal: Dark",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#FFFFFF",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#111111",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#111111",
+					"name": "Accent 1",
+					"slug": "accent-1"
+				},
+				{
+					"color": "#EFEFEF",
+					"name": "Accent 2",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#F8F8F8",
+					"name": "Accent 3",
+					"slug": "accent-3"
+				},
+				{
+					"color": "#333333",
+					"name": "Accent 4",
+					"slug": "accent-4"
+				},
+				{
+					"color": "#666666",
+					"name": "Accent 5",
+					"slug": "accent-5"
+				},
+				{
+					"color": "#888888",
+					"name": "Accent 6",
+					"slug": "accent-6"
+				},
+				{
+					"color": "#EEEEEE",
+					"name": "Accent 7",
+					"slug": "accent-7"
+				},
+				{
+					"color": "#DEDEDE",
+					"name": "Accent 8",
+					"slug": "accent-8"
+				},
+				{
+					"color": "#F8F8F8",
+					"name": "Accent 9",
+					"slug": "accent-9"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--primary)",
+			"fontWeight": "400"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--primary)",
+					"fontWeight": "400",
+					"letterSpacing": "-0.03em"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|contrast"
+				},
+				":hover": {
+					"color": {
+						"text": "var:preset|color|accent-4"
+					}
+				}
+			}
+		}
+	}
+}
