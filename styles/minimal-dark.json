@@ -61,6 +61,122 @@
 					"slug": "accent-9"
 				}
 			]
+		},
+		"typography": {
+			"dropCap": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFamily": "\"Figtree\", sans-serif",
+					"name": "Figtree",
+					"slug": "primary",
+					"fontFace": [
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-300.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-300-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-400.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-400-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-500.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-500-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-600.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-600-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-700.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-700-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-800.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-800-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-900.woff2" ]
+						},
+						{
+							"fontFamily": "Figtree",
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/figtree/figtree-900-italic.woff2" ]
+						}
+					]
+				}
+			]
 		}
 	},
 	"styles": {
