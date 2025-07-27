@@ -80,7 +80,7 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph -->
-				<p>/</p>
+				<p><?php esc_html_e( '/', 'deltra' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph -->
@@ -100,7 +100,7 @@
 			<!-- wp:button {"backgroundColor":"background-2","textColor":"foreground-1","style":{"typography":{"fontSize":"13px"},"spacing":{"padding":{"left":"16px","right":"16px","top":"8px","bottom":"8px"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground-1"}}},"border":{"radius":"20px"}},"className":"powered-by-deltra-button"} -->
 			<div class="wp-block-button has-custom-font-size powered-by-deltra-button" style="font-size:13px">
 				<a class="wp-block-button__link has-foreground-1-color has-background-2-background-color has-text-color has-background has-link-color wp-element-button" href="https://kishanjasani.in" style="border-radius:20px;padding-top:8px;padding-right:16px;padding-bottom:8px;padding-left:16px" target="_blank" rel="noopener">
-					<img style="width: 25px; vertical-align: middle;" src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/icons/deltra-small.png" alt="Deltra Logo">
+					<img style="width: 25px; vertical-align: middle;" src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/icons/deltra-small.png" alt="<?php esc_attr_e( 'Deltra Logo', 'deltra' ); ?>">
 					<span><?php esc_html_e( 'Powered by Deltra', 'deltra' ); ?></span>
 				</a>
 			</div>

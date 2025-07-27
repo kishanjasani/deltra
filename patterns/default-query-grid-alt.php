@@ -43,7 +43,7 @@
 		<!-- /wp:group -->
 
 		<!-- wp:query-no-results -->
-			<!-- wp:paragraph {"align":"center","placeholder":"Add text or blocks that will display when a query returns no results."} -->
+			<!-- wp:paragraph {"align":"center","placeholder":"<?php esc_attr_e( 'Add text or blocks that will display when a query returns no results.', 'deltra' ); ?>"} -->
 			<p class="has-text-align-center"><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search.', 'deltra' ); ?></p>
 			<!-- /wp:paragraph -->
 		<!-- /wp:query-no-results -->

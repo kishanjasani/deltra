@@ -18,7 +18,7 @@
 		<div class="wp-block-column" style="flex-basis:33.33%">
 			<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
 			<figure class="wp-block-image size-full">
-				<img src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/reading-with-coffee-life-journey.webp" alt="Home office with a wooden desk placed near a large window allowing natural light to flood the room." style="aspect-ratio:1;object-fit:cover"/>
+				<img src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/reading-with-coffee-life-journey.webp" alt="<?php esc_attr_e( 'Home office with a wooden desk placed near a large window allowing natural light to flood the room.', 'deltra' ); ?>" style="aspect-ratio:1;object-fit:cover"/>
 			</figure>
 			<!-- /wp:image -->
 		</div>

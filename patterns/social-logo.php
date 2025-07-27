@@ -13,7 +13,7 @@
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large)">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"13px"}},"textColor":"accent-6", "fontSize":"medium"} -->
+		<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"13px"}},"textColor":"accent-6","fontSize":"medium"} -->
 		<p class="has-text-align-center has-accent-6-color has-text-color has-medium-font-size"><?php esc_html_e( 'Featured In', 'deltra' ); ?></p>
 		<!-- /wp:paragraph -->
 
