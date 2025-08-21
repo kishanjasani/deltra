@@ -1,7 +1,7 @@
 === Deltra ===
 Contributors: kishanjasani
 Requires at least: 6.7
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GPLv2 or later
@@ -14,7 +14,10 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 
 == Changelog ==
 
-= 2025.XX.XX - version 1.0.0 =
+= 2025.08.18 - version 1.0.1 =
+* Initial release with code improvement
+
+= 2025.08.18 - version 1.0.0 =
 * Initial Release
 
 == Copyright ==
@@ -51,6 +54,11 @@ License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Reference: https://github.com/itfoundry/Poppins
 Source: https://fonts.google.com/specimen/Poppins
 
+Figtree Font
+Copyright 2022 The Figtree Project Authors
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Reference: https://github.com/erikdkennedy/figtree
+Source: https://fonts.google.com/specimen/Figtree
 
 === Images ===
 
