@@ -53,12 +53,12 @@ class Deltra_Block_Style_Assets {
 			$child_dir  = $child_path . '/' . deltra_config( 'assets.styles_dir' );
 			$child_uri  = $child_url . '/' . deltra_config( 'assets.styles_dir' );
 
-			$child_files = glob( $child_dir . '/*.css' );
+			$child_files     = glob( $child_dir . '/*.css' );
 			$child_css_names = array();
-			
+
 			if ( $child_files ) {
 				foreach ( $child_files as $f ) {
-					$basename = basename( $f, '.css' );
+					$basename                     = basename( $f, '.css' );
 					$child_css_names[ $basename ] = true;
 				}
 			}
