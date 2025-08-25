@@ -7,8 +7,6 @@
  * @package deltra
  */
 
-namespace App;
-
 /**
  * Deltra: The main class for the Deltra theme.
  *
@@ -25,7 +23,7 @@ class Deltra {
 	 *
 	 * @var array
 	 */
-	protected array $services = [];
+	protected $services = array();
 
 	/**
 	 * Initializes the Deltra theme services.
@@ -47,10 +45,10 @@ class Deltra {
 	 */
 	protected function register_services() {
 		// Future services can be added here.
-		$services = [
-			\App\Services\BlockStyleRegister::class,
-			\App\Services\BlockStyleAssets::class,
-		];
+		$services = array(
+			'Deltra_Block_Style_Register',
+			'Deltra_Block_Style_Assets',
+		);
 
 		foreach ( $services as $service_class ) {
 			$instance = new $service_class();

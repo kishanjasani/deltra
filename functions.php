@@ -9,8 +9,6 @@
  * @package deltra
  */
 
-use App\Deltra;
-
 if ( ! function_exists( 'deltra_setup' ) ) {
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -30,11 +28,11 @@ if ( ! function_exists( 'deltra_setup' ) ) {
 		// Add theme support for post formats.
 		add_theme_support( 'post-formats', array( 'aside', 'audio', 'chat', 'gallery', 'image', 'link', 'quote', 'status', 'video' ) );
 
-		if ( is_readable( __DIR__ . '/vendor/autoload.php' ) ) {
-			require_once __DIR__ . '/vendor/autoload.php';
-		}
-
+		// Include required files.
 		require_once get_template_directory() . '/helpers.php';
+		require_once get_template_directory() . '/inc/class-deltra.php';
+		require_once get_template_directory() . '/inc/class-deltra-block-style-register.php';
+		require_once get_template_directory() . '/inc/class-deltra-block-style-assets.php';
 
 		// Initialize the Deltra theme.
 		new Deltra();

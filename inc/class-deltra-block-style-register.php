@@ -5,12 +5,10 @@
  * @package deltra
  */
 
-namespace App\Services;
-
 /**
- * BlockStyleRegister: This service registers custom block styles for the Deltra theme.
+ * Deltra_Block_Style_Register: This service registers custom block styles for the Deltra theme.
  */
-class BlockStyleRegister {
+class Deltra_Block_Style_Register {
 
 	/**
 	 * Registers the service to register custom block styles.
@@ -23,7 +21,7 @@ class BlockStyleRegister {
 	 * @return void
 	 */
 	public function register() {
-		add_action( 'init', [ $this, 'register_block_styles' ] );
+		add_action( 'init', array( $this, 'register_block_styles' ) );
 	}
 
 	/**
@@ -37,24 +35,24 @@ class BlockStyleRegister {
 	 * @return void
 	 */
 	public function register_block_styles() {
-		$block_styles = [
-			'core/button' => [
+		$block_styles = array(
+			'core/button' => array(
 				'button-secondary'  => __( 'Secondary', 'deltra' ),
 				'button-tertiary'   => __( 'Tertiary', 'deltra' ),
 				'button-foreground' => __( 'Foreground', 'deltra' ),
 				'button-background' => __( 'Background', 'deltra' ),
 				'button-text'       => __( 'Text', 'deltra' ),
-			],
-		];
+			),
+		);
 
 		foreach ( $block_styles as $block => $styles ) {
 			foreach ( $styles as $style_name => $style_label ) {
 				register_block_style(
 					$block,
-					[
+					array(
 						'name'  => $style_name,
 						'label' => $style_label,
-					]
+					)
 				);
 			}
 		}
