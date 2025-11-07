@@ -33,15 +33,17 @@ jobs:
     steps:
       - name: Checkout theme
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Deploy
-        uses: kishanjasani/action-wordpress-theme-deploy@9c8d8145b56df64a45565512980cc93eac924ae4
+      - name: WordPress Theme Deploy
+        uses: kishanjasani/action-wordpress-theme-deploy@3e8e34b44225145b16be67c9159dcdd4c6fd3d50
         with:
           slug: deltra
-          version: ${{ inputs.version }}
-          build-dir: ${{ inputs.build-dir }}
-          generate-zip: ${{ inputs.generate-zip }}
-          dry-run: ${{ inputs.dry-run }}
+          version: ${{ github.event.inputs.version }}
+          build-dir: ${{ github.event.inputs.build-dir }}
+          generate-zip: ${{ github.event.inputs.generate-zip || 'false' }}
+          dry-run: ${{ github.event.inputs.dry-run || 'false' }}
         env:
           SVN_USERNAME: ${{ secrets.WPORG_SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.WPORG_SVN_PASSWORD }}
