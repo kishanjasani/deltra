@@ -1,19 +1,27 @@
-
 name: Deploy to WordPress.org
 on:
-  push:
-    tags:
-    - "*"
+  release:
+    types: [published]
 jobs:
-  tag:
-    name: New tag
+  deploy:
+    name: Deploy on release
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-
+    - uses: actions/checkout@v4
     - name: WordPress Theme Deploy
-      uses: Codeinwp/action-wordpress-theme-deploy@primary
+      id: deploy
+      uses: kishanjasani/action-wordpress-theme-deploy@main
+      with:
+        generate-zip: true
       env:
         SVN_PASSWORD: ${{ secrets.WPORG_SVN_PASSWORD }}
         SVN_USERNAME: ${{ secrets.WPORG_SVN_USERNAME }}
-        SLUG: deltra
+    - name: Upload ZIP to release
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ${{ steps.deploy.outputs.zip-path }}
+        asset_name: ${{ github.event.repository.name }}.zip
+        asset_content_type: application/zip
