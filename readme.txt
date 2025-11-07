@@ -3,7 +3,7 @@ Contributors: kishanjasani
 Requires at least: 6.7
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,10 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 
 
 == Changelog ==
+
+= 2025.11.07 - version 1.0.3 =
+* Fixed: Global spacing issues on tablet devices for improved layout consistency and readability
+* Updated: Theme screenshot to reflect the latest design and UI improvements
 
 = 2025.08.25 - version 1.0.2 =
 * Remove PSR-4 autoloading to avoid vendor folder
