@@ -1,49 +1,19 @@
-name: Deploy Theme
 
+name: Deploy to WordPress.org
 on:
   push:
     tags:
-      - "v*"
-      - "*.*.*"
-  workflow_dispatch:
-    inputs:
-      version:
-        description: "Override version to deploy when running manually (e.g. 1.2.3)"
-        required: false
-      build-dir:
-        description: "Optional build directory to deploy instead of the repo root"
-        required: false
-        default: ""
-      generate-zip:
-        description: "Also produce a ZIP from the deployed tag"
-        required: false
-        default: "false"
-      dry-run:
-        description: "Set to true to test the workflow without committing to SVN"
-        required: false
-        default: "false"
-
+    - "*"
 jobs:
-  deploy:
-    name: Deploy to WordPress.org
+  tag:
+    name: New tag
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-
     steps:
-      - name: Checkout theme
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+    - uses: actions/checkout@master
 
-      - name: WordPress Theme Deploy
-        uses: kishanjasani/action-wordpress-theme-deploy@3e8e34b44225145b16be67c9159dcdd4c6fd3d50
-        with:
-          slug: deltra
-          version: ${{ github.event.inputs.version }}
-          build-dir: ${{ github.event.inputs.build-dir }}
-          generate-zip: ${{ github.event.inputs.generate-zip || 'false' }}
-          dry-run: ${{ github.event.inputs.dry-run || 'false' }}
-        env:
-          SVN_USERNAME: ${{ secrets.WPORG_SVN_USERNAME }}
-          SVN_PASSWORD: ${{ secrets.WPORG_SVN_PASSWORD }}
+    - name: WordPress Theme Deploy
+      uses: Codeinwp/action-wordpress-theme-deploy@primary
+      env:
+        SVN_PASSWORD: ${{ secrets.WPORG_SVN_PASSWORD }}
+        SVN_USERNAME: ${{ secrets.WPORG_SVN_USERNAME }}
+        SLUG: deltra
