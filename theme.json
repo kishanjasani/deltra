@@ -356,6 +356,15 @@
 			"fontFamily": "var(--wp--preset--font-family--primary)",
 			"fontSize": "var(--wp--preset--font-size--small)",
 			"fontWeight": "500"
+		},
+		"spacing": {
+			"blockGap": "var(--wp--preset--spacing--small)",
+			"padding": {
+				"top": "0px",
+				"right": "var(--wp--preset--spacing--large)",
+				"bottom": "0px",
+				"left": "var(--wp--preset--spacing--large)"
+			}
 		}
 	}
 }
