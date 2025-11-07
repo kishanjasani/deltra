@@ -14,7 +14,7 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 
 == Changelog ==
 
-= 2025.11.07 - version 1.0.3 =
+= 2025.11.08 - version 1.0.3 =
 * Fixed: Global spacing issues on tablet devices for improved layout consistency and readability
 * Updated: Theme screenshot to reflect the latest design and UI improvements
 
