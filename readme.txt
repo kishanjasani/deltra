@@ -18,6 +18,7 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 * New: Theme Variation: Graceful Rose
 * New: Theme Variation: Natural Seafoam
 * New: Theme Variation: Natural Verdant Mist
+* New: Theme Variation: Natural Terracotta
 
 = 2025.11.08 - version 1.0.3 =
 * Fixed: Global spacing issues on tablet devices for improved layout consistency and readability
