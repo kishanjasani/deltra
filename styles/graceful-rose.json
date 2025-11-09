@@ -1,0 +1,190 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Graceful: Rose",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"color": "#FFFFFF",
+					"name": "Base"
+				},
+				{
+					"slug": "contrast",
+					"color": "#0B0B0B",
+					"name": "Contrast"
+				},
+				{
+					"slug": "accent-1",
+					"color": "#B03A63",
+					"name": "Accent 1"
+				},
+				{
+					"slug": "accent-2",
+					"color": "#E8AFC1",
+					"name": "Accent 2"
+				},
+				{
+					"slug": "accent-3",
+					"color": "#FBF8F4",
+					"name": "Accent 3"
+				},
+				{
+					"slug": "accent-4",
+					"color": "#363636",
+					"name": "Accent 4"
+				},
+				{
+					"slug": "accent-5",
+					"color": "#6F6F6F",
+					"name": "Accent 5"
+				},
+				{
+					"slug": "accent-6",
+					"color": "#A5A5A5",
+					"name": "Accent 6"
+				},
+				{
+					"slug": "accent-7",
+					"color": "#FAFAFC",
+					"name": "Accent 7"
+				},
+				{
+					"slug": "accent-8",
+					"color": "#E5E8F0",
+					"name": "Accent 8"
+				}
+			]
+		},
+		"typography": {
+			"dropCap": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Merriweather Sans\", sans-serif",
+					"name": "Merriweather Sans",
+					"slug": "base",
+					"fontFace": [
+						{
+							"fontFamily": "Merriweather Sans",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/merriweather-sans/merriweather-sans-300.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather Sans",
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/merriweather-sans/merriweather-sans-300-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather Sans",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/merriweather-sans/merriweather-sans-400.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather Sans",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/merriweather-sans/merriweather-sans-400-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather Sans",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/merriweather-sans/merriweather-sans-500.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather Sans",
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/merriweather-sans/merriweather-sans-500-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather Sans",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/merriweather-sans/merriweather-sans-600.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather Sans",
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/merriweather-sans/merriweather-sans-600-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather Sans",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/merriweather-sans/merriweather-sans-700.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather Sans",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/merriweather-sans/merriweather-sans-700-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather Sans",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/merriweather-sans/merriweather-sans-800.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather Sans",
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/merriweather-sans/merriweather-sans-800-italic.woff2" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Gloock\", serif",
+					"name": "Gloock",
+					"slug": "heading",
+					"fontFace": [
+						{
+							"fontFamily": "Gloock",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/gloock/gloock-400.woff2" ]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--base)",
+			"lineHeight": "var(--wp--custom--line-height--normal)",
+			"fontSize": "var(--wp--preset--font-size--small)",
+			"fontWeight": "400"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--heading)",
+					"lineHeight": "var(--wp--custom--line-height--small)",
+					"letterSpacing": "0",
+					"fontWeight": "400"
+				}
+			}
+		}
+	}
+}

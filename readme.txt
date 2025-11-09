@@ -14,6 +14,9 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 
 == Changelog ==
 
+= 2025.11.XX - version 1.0.4 =
+* New: Theme Variation: Graceful Rose
+
 = 2025.11.08 - version 1.0.3 =
 * Fixed: Global spacing issues on tablet devices for improved layout consistency and readability
 * Updated: Theme screenshot to reflect the latest design and UI improvements
@@ -66,6 +69,18 @@ Copyright 2022 The Figtree Project Authors
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Reference: https://github.com/erikdkennedy/figtree
 Source: https://fonts.google.com/specimen/Figtree
+
+Gloock Font
+Copyright 2022 The Gloock Project Authors.
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Reference: https://github.com/erikdkennedy/figtree
+Source: https://fonts.google.com/specimen/Gloock
+
+Merriweather Font
+Copyright 2016 The Merriweather Project Authors.
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Reference: github.com/SorkinType/Merriweather
+Source: https://fonts.google.com/specimen/Merriweather
 
 === Images ===
 
