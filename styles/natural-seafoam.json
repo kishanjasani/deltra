@@ -1,0 +1,171 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Natural: Seafoam",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+				"slug": "base",
+				"color": "#FFFFFF",
+				"name": "Base"
+				},
+				{
+				"slug": "contrast",
+				"color": "#241712",
+				"name": "Contrast"
+				},
+				{
+				"slug": "accent-1",
+				"color": "#177069",
+				"name": "Accent 1"
+				},
+				{
+				"slug": "accent-2",
+				"color": "#D2A06F",
+				"name": "Accent 2"
+				},
+				{
+				"slug": "accent-3",
+				"color": "#FBF6F0",
+				"name": "Accent 3"
+				},
+				{
+				"slug": "accent-4",
+				"color": "#3A2A22",
+				"name": "Accent 4"
+				},
+				{
+				"slug": "accent-5",
+				"color": "#6B584F",
+				"name": "Accent 5"
+				},
+				{
+				"slug": "accent-6",
+				"color": "#A29B93",
+				"name": "Accent 6"
+				},
+				{
+				"slug": "accent-7",
+				"color": "#F2ECE3",
+				"name": "Accent 7"
+				},
+				{
+				"slug": "accent-8",
+				"color": "#E9DED2",
+				"name": "Accent 8"
+				}
+			]
+		},
+		"typography": {
+		"dropCap": false,
+		"fluid": true,
+		"fontFamilies": [
+			{
+				"fontFamily": "\"PT Sans\", sans-serif",
+				"name": "PT Sans",
+				"slug": "base",
+				"fontFace": [
+					{
+					"fontFamily": "PT Sans",
+					"fontWeight": "400",
+					"fontStyle": "normal",
+					"fontStretch": "normal",
+					"src": [
+						"file:./assets/fonts/pt-sans/pt-sans-400.woff2"
+					]
+					},
+					{
+					"fontFamily": "PT Sans",
+					"fontWeight": "400",
+					"fontStyle": "italic",
+					"fontStretch": "normal",
+					"src": [
+						"file:./assets/fonts/pt-sans/pt-sans-400-italic.woff2"
+					]
+					},
+					{
+					"fontFamily": "PT Sans",
+					"fontWeight": "700",
+					"fontStyle": "normal",
+					"fontStretch": "normal",
+					"src": [
+						"file:./assets/fonts/pt-sans/pt-sans-700.woff2"
+					]
+					},
+					{
+					"fontFamily": "PT Sans",
+					"fontWeight": "700",
+					"fontStyle": "italic",
+					"fontStretch": "normal",
+					"src": [
+						"file:./assets/fonts/pt-sans/pt-sans-700-italic.woff2"
+					]
+					}
+				]
+			},
+			{
+				"fontFamily": "\"PT Serif\", serif",
+				"name": "PT Serif",
+				"slug": "heading",
+				"fontFace": [
+					{
+					"fontFamily": "PT Serif",
+					"fontWeight": "400",
+					"fontStyle": "normal",
+					"fontStretch": "normal",
+					"src": [
+						"file:./assets/fonts/pt-serif/pt-serif-400.woff2"
+					]
+					},
+					{
+					"fontFamily": "PT Serif",
+					"fontWeight": "400",
+					"fontStyle": "italic",
+					"fontStretch": "normal",
+					"src": [
+						"file:./assets/fonts/pt-serif/pt-serif-400-italic.woff2"
+					]
+					},
+					{
+					"fontFamily": "PT Serif",
+					"fontWeight": "700",
+					"fontStyle": "normal",
+					"fontStretch": "normal",
+					"src": [
+						"file:./assets/fonts/pt-serif/pt-serif-700.woff2"
+					]
+					},
+					{
+					"fontFamily": "PT Serif",
+					"fontWeight": "700",
+					"fontStyle": "italic",
+					"fontStretch": "normal",
+					"src": [
+						"file:./assets/fonts/pt-serif/pt-serif-700-italic.woff2"
+					]
+					}
+				]
+			}
+		]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--base)",
+			"lineHeight": "var(--wp--custom--line-height--normal)",
+			"fontSize": "var(--wp--preset--font-size--small)",
+			"fontWeight": "400"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+				"fontFamily": "var(--wp--preset--font-family--heading)",
+				"lineHeight": "var(--wp--custom--line-height--small)",
+				"letterSpacing": "0",
+				"fontWeight": "700"
+				}
+			}
+		}
+	}
+}
