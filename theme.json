@@ -365,6 +365,24 @@
 				"bottom": "0px",
 				"left": "var(--wp--preset--spacing--large)"
 			}
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--accent-1)"
+				},
+				"typography": {
+					"textDecoration": "underline"
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--contrast)"
+					},
+					"typography": {
+						"textDecoration": "none"
+					}
+				}
+			}
 		}
 	}
 }
