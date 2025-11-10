@@ -20,10 +20,11 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 * New: Theme Variation: Natural Verdant Mist
 * New: Theme Variation: Natural Terracotta
 * New: Theme Variation: Natural Deep Ocean
+* Fix: Update link styles
 
 = 2025.11.08 - version 1.0.3 =
-* Fixed: Global spacing issues on tablet devices for improved layout consistency and readability
-* Updated: Theme screenshot to reflect the latest design and UI improvements
+* Fix: Global spacing issues on tablet devices for improved layout consistency and readability
+* Update: Theme screenshot to reflect the latest design and UI improvements
 
 = 2025.08.25 - version 1.0.2 =
 * Remove PSR-4 autoloading to avoid vendor folder
