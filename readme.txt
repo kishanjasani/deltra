@@ -3,7 +3,7 @@ Contributors: kishanjasani
 Requires at least: 6.7
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,13 +14,13 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 
 == Changelog ==
 
-= 2025.11.XX - version 1.0.4 =
+= 2025.11.12 - version 1.0.4 =
 * New: Theme Variation: Graceful Rose
 * New: Theme Variation: Natural Seafoam
 * New: Theme Variation: Natural Verdant Mist
 * New: Theme Variation: Natural Terracotta
 * New: Theme Variation: Natural Deep Ocean
-* Fix: Update link styles
+* Fix: Update link and header styles
 
 = 2025.11.08 - version 1.0.3 =
 * Fix: Global spacing issues on tablet devices for improved layout consistency and readability
