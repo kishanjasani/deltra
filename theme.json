@@ -420,6 +420,18 @@
 						"text": "var(--wp--preset--color--base)"
 					}
 				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--base)",
+					"letterSpacing": "-0.03em",
+					"fontWeight": "600"
+				},
+				"spacing": {
+					"margin": {
+						"top": "var(--wp--preset--spacing--medium)"
+					}
+				}
 			}
 		}
 	}
