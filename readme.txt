@@ -14,10 +14,10 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 
 == Changelog ==
 
-= 2025.11.XX - version 1.0.5 =
+= 2025.11.12 - version 1.0.5 =
 * Fix: Styles for the block elements like (Code, Pagination etc.)
 
-= 2025.11.12 - version 1.0.4 =
+= 2025.11.11 - version 1.0.4 =
 * New: Theme Variation: Graceful Rose
 * New: Theme Variation: Natural Seafoam
 * New: Theme Variation: Natural Verdant Mist
