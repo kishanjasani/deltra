@@ -74,7 +74,7 @@
 		<div class="wp-block-buttons">
 			<!-- wp:button {"backgroundColor":"accent-7","textColor":"contrast","style":{"typography":{"fontSize":"13px"},"spacing":{"padding":{"left":"16px","right":"16px","top":"8px","bottom":"8px"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"border":{"radius":"20px"}},"className":"powered-by-deltra-button"} -->
 			<div class="wp-block-button has-custom-font-size powered-by-deltra-button" style="font-size:13px">
-				<a class="wp-block-button__link has-contrast-color has-accent-7-background-color has-text-color has-background has-link-color wp-element-button" href="https://deltra.com" style="border-radius:20px;padding-top:8px;padding-right:16px;padding-bottom:8px;padding-left:16px" target="_blank" rel="noopener">
+				<a class="wp-block-button__link has-contrast-color has-accent-7-background-color has-text-color has-background has-link-color wp-element-button" href="https://kishanjasani.in" style="border-radius:20px;padding-top:8px;padding-right:16px;padding-bottom:8px;padding-left:16px" target="_blank" rel="noopener">
 					<img style="width: 25px; vertical-align: middle;" src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/icons/deltra-small.png" alt="<?php esc_attr_e( 'Deltra Logo', 'deltra' ); ?>">
 					<span><?php esc_html_e( 'Powered by Deltra', 'deltra' ); ?></span>
 				</a>
