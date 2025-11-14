@@ -85,11 +85,29 @@ License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Reference: https://github.com/erikdkennedy/figtree
 Source: https://fonts.google.com/specimen/Gloock
 
-Merriweather Font
+Merriweather Sans Font
 Copyright 2016 The Merriweather Project Authors.
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Reference: github.com/SorkinType/Merriweather
 Source: https://fonts.google.com/specimen/Merriweather
+
+PT Sans Font
+Copyright (c) 2010, ParaType Ltd.
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Reference: paratype.com/public
+Source: https://fonts.google.com/specimen/PT+Sans/license
+
+PT Serif Font
+Copyright (c) 2010, ParaType Ltd.
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Reference: Reference: paratype.com/public
+Source: https://fonts.google.com/specimen/PT+Serif
+
+Roboto Mono Font
+Copyright (c) 2011 Google Inc.
+License: Apache License, Version 2.0, https://www.apache.org/licenses/LICENSE-2.0
+Reference: github.com/googlefonts/roboto
+Source: https://fonts.google.com/specimen/Roboto+Mono
 
 === Images ===
 
