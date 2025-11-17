@@ -18,7 +18,7 @@
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%">
 			<!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
 			<figure class="wp-block-image size-large">
-				<img src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/happy-girl-with-headphones.webp" alt="<?php esc_attr_e( 'Professional portrait of a creative digital designer in their workspace.', 'deltra' ); ?>" />
+				<img src="<?php echo esc_url( deltra_config( 'urls.parent' ) ); ?>/assets/images/happy-girl-with-headphones.webp" alt="<?php esc_attr_e( 'Professional portrait of a creative digital designer in their workspace.', 'deltra' ); ?>"/>
 			</figure>
 			<!-- /wp:image -->
 		</div>
@@ -26,7 +26,7 @@
 		<!-- wp:column {"verticalAlignment":"center","width":"55%","style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%">
 
-			 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2"} -->
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2"} -->
 			<p class="has-accent-2-color has-text-color has-link-color" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Featured Heading', 'deltra' ); ?></p>
 			<!-- /wp:paragraph -->
 
