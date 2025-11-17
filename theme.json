@@ -373,7 +373,10 @@
 					"background": "var(--wp--preset--color--accent-3)"
 				},
 				"border": {
-					"radius": "8px"
+					"radius": "8px",
+					"color": "var(--wp--preset--color--accent-8)",
+					"style": "solid",
+					"width": "1px"
 				},
 				"spacing": {
 					"padding": {
