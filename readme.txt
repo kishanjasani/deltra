@@ -15,6 +15,10 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 
 == Changelog ==
 
+= 2025.11.20 - version 1.0.6 =
+* New: Pattern: Hero - Two Column Introduction
+* Fix: Core blocks style and space alignments
+
 = 2025.11.12 - version 1.0.5 =
 * Fix: Styles for the block elements like (Code, Pagination etc.)
 
