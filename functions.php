@@ -93,6 +93,10 @@ function deltra_register_block_pattern_categories() {
 			'label'       => __( 'Pricing', 'deltra' ),
 			'description' => __( 'Clear and compelling pricing tables for your products or services.', 'deltra' ),
 		],
+		'testimonials' => [
+			'label'       => __( 'Testimonials', 'deltra' ),
+			'description' => __( 'Customer reviews and feedback sections to build trust and credibility.', 'deltra' ),
+		],
 	];
 
 	/**
