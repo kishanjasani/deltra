@@ -16,7 +16,7 @@
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 		<div class="wp-block-group">
-			<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"accent"} -->
+			<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"accent-1"} -->
 			<p class="has-text-align-center has-accent-color has-text-color" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Testimonials', 'deltra' ); ?></p>
 			<!-- /wp:paragraph -->
 
@@ -30,8 +30,8 @@
 		<div class="wp-block-columns alignwide">
 			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|large"}}} -->
 			<div class="wp-block-column">
-				<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|medium"},"border":{"radius":"8px","width":"1px"}},"borderColor":"contrast-3","layout":{"type":"constrained"}} -->
-				<div class="wp-block-group has-border-color has-contrast-3-border-color" style="border-width:1px;border-radius:8px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)">
+				<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|medium"},"border":{"radius":"8px","width":"1px"}},"borderColor":"accent-8","layout":{"type":"constrained"}} -->
+				<div class="wp-block-group has-border-color has-accent-8-border-color" style="border-width:1px;border-radius:8px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 					<div class="wp-block-group">
 						<!-- wp:image {"width":"114px","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
@@ -56,8 +56,8 @@
 							<p style="line-height:1"><?php esc_html_e( 'Sarah Mitchell', 'deltra' ); ?></p>
 							<!-- /wp:paragraph -->
 
-							<!-- wp:paragraph {"textColor":"contrast-3","fontSize":"x-small"} -->
-							<p class="has-contrast-3-color has-text-color has-x-small-font-size"><?php esc_html_e( 'Marketing Director', 'deltra' ); ?></p>
+							<!-- wp:paragraph {"textColor":"accent-5","fontSize":"x-small"} -->
+							<p class="has-accent-5-color has-text-color has-x-small-font-size"><?php esc_html_e( 'Marketing Director', 'deltra' ); ?></p>
 							<!-- /wp:paragraph -->
 						</div>
 						<!-- /wp:group -->
@@ -70,8 +70,8 @@
 
 			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|large"}}} -->
 			<div class="wp-block-column">
-				<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|medium"},"border":{"radius":"8px","width":"1px"}},"borderColor":"contrast-3","layout":{"type":"constrained"}} -->
-				<div class="wp-block-group has-border-color has-contrast-3-border-color" style="border-width:1px;border-radius:8px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)">
+				<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|medium"},"border":{"radius":"8px","width":"1px"}},"borderColor":"accent-8","layout":{"type":"constrained"}} -->
+				<div class="wp-block-group has-border-color has-accent-8-border-color" style="border-width:1px;border-radius:8px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 					<div class="wp-block-group">
 						<!-- wp:image {"width":"114px","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
@@ -96,8 +96,8 @@
 							<p style="line-height:1"><?php esc_html_e( 'James Anderson', 'deltra' ); ?></p>
 							<!-- /wp:paragraph -->
 
-							<!-- wp:paragraph {"textColor":"contrast-3","fontSize":"x-small"} -->
-							<p class="has-contrast-3-color has-text-color has-x-small-font-size"><?php esc_html_e( 'Founder, TechStart', 'deltra' ); ?></p>
+							<!-- wp:paragraph {"textColor":"accent-5","fontSize":"x-small"} -->
+							<p class="has-accent-5-color has-text-color has-x-small-font-size"><?php esc_html_e( 'Founder, TechStart', 'deltra' ); ?></p>
 							<!-- /wp:paragraph -->
 						</div>
 						<!-- /wp:group -->
@@ -110,8 +110,8 @@
 
 			<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|large"}}} -->
 			<div class="wp-block-column">
-				<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|medium"},"border":{"radius":"8px","width":"1px"}},"borderColor":"contrast-3","layout":{"type":"constrained"}} -->
-				<div class="wp-block-group has-border-color has-contrast-3-border-color" style="border-width:1px;border-radius:8px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)">
+				<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|medium"},"border":{"radius":"8px","width":"1px"}},"borderColor":"accent-8","layout":{"type":"constrained"}} -->
+				<div class="wp-block-group has-border-color has-accent-8-border-color" style="border-width:1px;border-radius:8px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 					<div class="wp-block-group">
 						<!-- wp:image {"width":"114px","sizeSlug":"full","linkDestination":"none","className":"is-resized"} -->
@@ -136,8 +136,8 @@
 							<p style="line-height:1"><?php esc_html_e( 'Emily Chen', 'deltra' ); ?></p>
 							<!-- /wp:paragraph -->
 
-							<!-- wp:paragraph {"textColor":"contrast-3","fontSize":"x-small"} -->
-							<p class="has-contrast-3-color has-text-color has-x-small-font-size"><?php esc_html_e( 'Creative Director', 'deltra' ); ?></p>
+							<!-- wp:paragraph {"textColor":"accent-5","fontSize":"x-small"} -->
+							<p class="has-accent-5-color has-text-color has-x-small-font-size"><?php esc_html_e( 'Creative Director', 'deltra' ); ?></p>
 							<!-- /wp:paragraph -->
 						</div>
 						<!-- /wp:group -->
