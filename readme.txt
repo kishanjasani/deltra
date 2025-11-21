@@ -4,7 +4,7 @@ Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, thre
 Requires at least: 6.7
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -14,6 +14,9 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 
 
 == Changelog ==
+
+= 2025.11.26 - version 1.0.7 =
+* New: New pattern "Voice of Customers – Grid" featuring a structured layout to showcase customer testimonials in an organized, visually balanced grid format
 
 = 2025.11.20 - version 1.0.6 =
 * New: Pattern: Hero - Two Column Introduction
