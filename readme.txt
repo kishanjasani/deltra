@@ -120,3 +120,9 @@ Person reading a book titled 'Life is a Journey' while holding a cup of coffee a
 Free public domain CC0 image.
 reading-with-coffee-life-journey.webp
 https://www.flickr.com/photos/byrawpixel/32881020421/in/gallery-heykristance-72157688784867611/
+
+License: CC BY 2.0 https://creativecommons.org/licenses/by/2.0/
+"Author Steven Johnson, How We Got to Now, Innovative Initiatives workshop, Innovative Technology Partnerships Office (IPTO)" by NASA Goddard Photo and Video is licensed under CC BY 2.0.
+Free public domain CC0 image.
+avatar.jpg
+https://www.flickr.com/photos/24662369@N07/15780573201
