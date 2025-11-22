@@ -16,7 +16,9 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 == Changelog ==
 
 = 2025.11.26 - version 1.0.7 =
-* New: New pattern "Voice of Customers – Grid" featuring a structured layout to showcase customer testimonials in an organized, visually balanced grid format
+* New: Voice of Customers – Grid pattern featuring a structured layout to showcase customer testimonials in an organized, visually balanced grid format
+* New: Coming Soon pattern for creating landing pages
+* New: Coming Soon - Light pattern (light theme variant)
 
 = 2025.11.20 - version 1.0.6 =
 * New: Pattern: Hero - Two Column Introduction
