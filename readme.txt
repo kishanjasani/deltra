@@ -16,9 +16,14 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 == Changelog ==
 
 = 2025.11.26 - version 1.0.7 =
+* New: Theme Variation - Lime Glow - Features a vibrant lime green accent
+* New: Theme Variation - Electric Lemon - Showcases a bright electric yellow accent
+* New: Theme Variation - Mint Pulse - Highlights a cool mint cyan accent
+* New: Theme Variation - Pulse Pink - Presents a vivid hot pink accent
 * New: Voice of Customers – Grid pattern featuring a structured layout to showcase customer testimonials in an organized, visually balanced grid format
 * New: Coming Soon pattern for creating landing pages
 * New: Coming Soon - Light pattern (light theme variant)
+* Fix: Pagination link backgroung color
 
 = 2025.11.20 - version 1.0.6 =
 * New: Pattern: Hero - Two Column Introduction
@@ -118,6 +123,18 @@ License: Apache License, Version 2.0, https://www.apache.org/licenses/LICENSE-2.
 Reference: github.com/googlefonts/roboto
 Source: https://fonts.google.com/specimen/Roboto+Mono
 
+Inter Font
+Copyright (c) 2016 The Inter Project Authors
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Reference: https://github.com/rsms/inter
+Source: https://fonts.google.com/specimen/Inter
+
+Space Grotesk Font
+Copyright (c) 2018, Florian Karsten
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Reference: https://github.com/floriankarsten/space-grotesk
+Source: https://fonts.google.com/specimen/Space+Grotesk
+
 === Images ===
 
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
@@ -131,3 +148,20 @@ License: CC BY 2.0 https://creativecommons.org/licenses/by/2.0/
 Free public domain CC0 image.
 avatar.jpg
 https://www.flickr.com/photos/24662369@N07/15780573201
+
+License: GPL v3.0, https://www.gnu.org/licenses/gpl-3.0.html
+Deltra theme logo
+AI-generated logo created for the theme
+Copyright: Kishan Jasani
+deltra.png
+deltra-small.png
+
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+Portrait of a happy girl with headphones pointing and smiling
+AI-generated image created using ChatGPT (DALL-E)
+happy-girl-with-headphones.webp
+
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+Five star rating icon
+AI-generated icon created using ChatGPT (DALL-E)
+stars.webp
