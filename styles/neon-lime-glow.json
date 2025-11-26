@@ -1,0 +1,132 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Neon: Lime Glow",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"color": "#FFFFFF",
+					"name": "Base"
+				},
+				{
+					"slug": "contrast",
+					"color": "#161616",
+					"name": "Contrast"
+				},
+				{
+					"slug": "accent-1",
+					"color": "#0A0A0A",
+					"name": "Accent 1"
+				},
+				{
+					"slug": "accent-2",
+					"color": "#BFF76A",
+					"name": "Accent 2"
+				},
+				{
+					"slug": "accent-3",
+					"color": "#F9F9F9",
+					"name": "Accent 3"
+				},
+				{
+					"slug": "accent-4",
+					"color": "#EFEEEE",
+					"name": "Accent 4"
+				},
+				{
+					"slug": "accent-5",
+					"color": "#DADADA",
+					"name": "Accent 5"
+				},
+				{
+					"slug": "accent-6",
+					"color": "#474747",
+					"name": "Accent 6"
+				},
+				{
+					"slug": "accent-7",
+					"color": "#9A9A9A",
+					"name": "Accent 7"
+				},
+				{
+					"slug": "accent-8",
+					"color": "#F7FEE9",
+					"name": "Accent 8"
+				}
+			]
+		},
+		"typography": {
+			"dropCap": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Inter\", sans-serif",
+					"name": "Inter",
+					"slug": "base",
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "100 200 300 400 500 600 700 800 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/inter/inter.ttf" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Space Grotesk\", serif",
+					"name": "Space Grotesk",
+					"slug": "heading",
+					"fontFace": [
+						{
+							"fontFamily": "Space Grotesk",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/space-grotesk/space-grotesk-400.woff2" ]
+						},
+						{
+							"fontFamily": "Space Grotesk",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/space-grotesk/space-grotesk-500.woff2" ]
+						},
+						{
+							"fontFamily": "Space Grotesk",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/space-grotesk/space-grotesk-600.woff2" ]
+						},
+						{
+							"fontFamily": "Space Grotesk",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/space-grotesk/space-grotesk-700.woff2" ]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--base)",
+			"fontSize": "var(--wp--preset--font-size--small)",
+			"fontWeight": "500"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--heading)",
+					"letterSpacing": "0",
+					"fontWeight": "500"
+				}
+			}
+		}
+	}
+}

@@ -428,7 +428,7 @@
 							"width": "0"
 						},
 						"color": {
-							"background": "var(--wp--preset--color--accent-3)",
+							"background": "var(--wp--preset--color--accent-8)",
 							"text": "var(--wp--preset--color--contrast)"
 						},
 						"spacing": {
