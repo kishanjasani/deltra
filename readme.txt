@@ -2,9 +2,9 @@
 Contributors: kishanjasani
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Requires at least: 6.7
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.7
+Stable tag: 1.0.8
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -14,6 +14,9 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 
 
 == Changelog ==
+
+= 2025.12.02 - version 1.0.8 =
+* New: Tested upto WordPress 6.9.0
 
 = 2025.11.26 - version 1.0.7 =
 * New: Theme Variation - Lime Glow - Features a vibrant lime green accent
