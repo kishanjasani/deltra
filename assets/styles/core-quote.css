@@ -1,0 +1,725 @@
+/**
+ * Quote Block Variations - Deltra Theme
+ * Version: 1.0.0
+ *
+ * Performance-optimized stylesheet for WordPress FSE themes
+ * Uses theme.json variables for consistency across style variations
+ *
+ * Table of Contents:
+ * 1. Paragraph Quote Styles (4 variations)
+ * 2. Block Quote Styles (10 variations)
+ * 3. Responsive & Accessibility
+ */
+
+/* ============================================
+   1. PARAGRAPH QUOTE STYLES (4)
+   ============================================ */
+
+/* Light Gray Sidebar */
+.wp-block-quote.is-style-gray-sidebar {
+    padding: 30px 40px;
+    margin: 40px 0;
+    border: none;
+    border-left: 1px solid var(--wp--preset--color--accent-8);
+    background: linear-gradient(90deg, var(--wp--preset--color--accent-7) 0%, transparent 100%);
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: var(--wp--preset--color--contrast);
+}
+
+.wp-block-quote.is-style-gray-sidebar cite {
+    display: block;
+    margin-top: 16px;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: var(--wp--preset--color--accent-5);
+}
+
+.wp-block-quote.is-style-gray-sidebar cite::before {
+    content: '— ';
+}
+
+/* Minimalist Mark */
+.wp-block-quote.is-style-minimalist-mark {
+    position: relative;
+    padding: 30px 0 30px 25px;
+    margin: 40px 0;
+    border: none;
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: var(--wp--preset--color--contrast);
+    font-style: italic;
+}
+
+.wp-block-quote.is-style-minimalist-mark::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 40px;
+    background: var(--wp--preset--color--contrast);
+}
+
+.wp-block-quote.is-style-minimalist-mark cite {
+    display: block;
+    margin-top: 16px;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: var(--wp--preset--color--accent-5);
+}
+
+.wp-block-quote.is-style-minimalist-mark cite::before {
+    content: '— ';
+}
+
+/* Centered Minimal */
+.wp-block-quote.is-style-centered-minimal {
+    position: relative;
+    padding: 40px 20px;
+    margin: 40px 0;
+    border: none;
+    text-align: center;
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: 1.3rem;
+    line-height: 1.9;
+    color: var(--wp--preset--color--contrast);
+    font-style: italic;
+    font-weight: 300;
+}
+
+.wp-block-quote.is-style-centered-minimal::before,
+.wp-block-quote.is-style-centered-minimal::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--wp--preset--color--contrast), transparent);
+}
+
+.wp-block-quote.is-style-centered-minimal::before {
+    top: 0;
+}
+
+.wp-block-quote.is-style-centered-minimal::after {
+    bottom: 0;
+}
+
+.wp-block-quote.is-style-centered-minimal cite {
+    display: block;
+    margin-top: 20px;
+    font-style: normal;
+    font-size: 0.85rem;
+    color: var(--wp--preset--color--accent-6);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Clean Left Border */
+.wp-block-quote.is-style-clean-left {
+    padding: 25px 0 25px 30px;
+    margin: 40px 0;
+    border: none;
+    border-left: 3px solid var(--wp--preset--color--contrast);
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: var(--wp--preset--color--contrast);
+    font-style: italic;
+}
+
+.wp-block-quote.is-style-clean-left cite {
+    display: block;
+    margin-top: 16px;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: var(--wp--preset--color--accent-5);
+    font-family: var(--wp--preset--font-family--primary);
+}
+
+.wp-block-quote.is-style-clean-left cite::before {
+    content: '— ';
+}
+
+/* ============================================
+   2. BLOCK QUOTE STYLES (10)
+   ============================================ */
+
+/* 1. Editorial Elegance */
+.wp-block-quote.is-style-editorial {
+    position: relative;
+    padding: 50px 40px 50px 80px;
+    margin: 30px 0;
+    background: linear-gradient(135deg, var(--wp--preset--color--accent-7) 0%, var(--wp--preset--color--base) 100%);
+    border: none;
+    border-left: 4px solid var(--wp--preset--color--contrast);
+    font-family: var(--wp--preset--font-family--primary);
+}
+
+.wp-block-quote.is-style-editorial::before {
+    content: '"';
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    font-size: 120px;
+    font-family: var(--wp--preset--font-family--primary);
+    color: var(--wp--preset--color--accent-8);
+    line-height: 1;
+    opacity: 0.3;
+}
+
+.wp-block-quote.is-style-editorial p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--wp--preset--color--contrast);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.wp-block-quote.is-style-editorial cite {
+    display: block;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--wp--preset--color--accent-5);
+    font-family: var(--wp--preset--font-family--primary);
+    letter-spacing: 0.5px;
+}
+
+.wp-block-quote.is-style-editorial cite::before {
+    content: '— ';
+}
+
+/* 2. Minimalist Zen */
+.wp-block-quote.is-style-minimalist-zen {
+    position: relative;
+    padding: 60px 20px;
+    margin: 50px 0;
+    text-align: center;
+    background: transparent;
+    border: none;
+}
+
+.wp-block-quote.is-style-minimalist-zen::before,
+.wp-block-quote.is-style-minimalist-zen::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--wp--preset--color--contrast), transparent);
+}
+
+.wp-block-quote.is-style-minimalist-zen::before {
+    top: 0;
+}
+
+.wp-block-quote.is-style-minimalist-zen::after {
+    bottom: 0;
+}
+
+.wp-block-quote.is-style-minimalist-zen p {
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: 1.4rem;
+    line-height: 1.9;
+    color: var(--wp--preset--color--contrast);
+    font-style: italic;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.wp-block-quote.is-style-minimalist-zen cite {
+    display: block;
+    font-style: normal;
+    font-size: 0.85rem;
+    color: var(--wp--preset--color--accent-6);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* 3. Colored Accent */
+.wp-block-quote.is-style-colored-accent {
+    position: relative;
+    padding: 40px 50px;
+    margin: 30px 0;
+    background: linear-gradient(135deg, var(--wp--preset--color--accent-9) 0%, var(--wp--preset--color--base) 100%);
+    border-radius: 0 20px 20px 0;
+    border: none;
+    border-left: 8px solid var(--wp--preset--color--accent-1);
+    overflow: hidden;
+}
+
+.wp-block-quote.is-style-colored-accent::before {
+    content: '';
+    position: absolute;
+    right: -50px;
+    top: -50px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, var(--wp--preset--color--accent-2) 0%, transparent 70%);
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+.wp-block-quote.is-style-colored-accent p {
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: 1.35rem;
+    line-height: 1.8;
+    color: var(--wp--preset--color--contrast);
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.wp-block-quote.is-style-colored-accent cite {
+    display: block;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--wp--preset--color--accent-1);
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+.wp-block-quote.is-style-colored-accent cite::before {
+    content: '◆ ';
+    margin-right: 8px;
+}
+
+/* 4. Handwritten Charm */
+.wp-block-quote.is-style-handwritten {
+    position: relative;
+    padding: 50px 40px;
+    margin: 40px 0;
+    background: var(--wp--preset--color--accent-7);
+    border: 2px dashed var(--wp--preset--color--accent-8);
+    border-radius: 4px;
+    transform: rotate(0.5deg);
+}
+
+.wp-block-quote.is-style-handwritten::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid var(--wp--preset--color--accent-8);
+    pointer-events: none;
+}
+
+.wp-block-quote.is-style-handwritten p {
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: 1.4rem;
+    line-height: 1.7;
+    color: var(--wp--preset--color--contrast);
+    font-style: italic;
+    margin-bottom: 24px;
+}
+
+.wp-block-quote.is-style-handwritten cite {
+    display: block;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--wp--preset--color--accent-5);
+    font-family: var(--wp--preset--font-family--primary);
+    padding-left: 30px;
+    position: relative;
+}
+
+.wp-block-quote.is-style-handwritten cite::before {
+    content: '✎';
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+}
+
+/* 5. Newspaper Classic */
+.wp-block-quote.is-style-newspaper {
+    position: relative;
+    padding: 40px 50px;
+    margin: 40px 0;
+    background: var(--wp--preset--color--accent-7);
+    border: none;
+    border-top: 3px double var(--wp--preset--color--contrast);
+    border-bottom: 3px double var(--wp--preset--color--contrast);
+    font-family: var(--wp--preset--font-family--primary);
+}
+
+.wp-block-quote.is-style-newspaper::before {
+    content: '❝';
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 80px;
+    color: var(--wp--preset--color--accent-8);
+    opacity: 0.5;
+}
+
+.wp-block-quote.is-style-newspaper p {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    color: var(--wp--preset--color--contrast);
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.wp-block-quote.is-style-newspaper cite {
+    display: block;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: var(--wp--preset--color--accent-5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 1px solid var(--wp--preset--color--accent-8);
+    padding-top: 12px;
+    margin-top: 12px;
+}
+
+/* 6. Neon Glow */
+.wp-block-quote.is-style-neon {
+    position: relative;
+    padding: 50px;
+    margin: 40px 0;
+    background: var(--wp--preset--color--contrast);
+    border-radius: 16px;
+    overflow: hidden;
+    border: none;
+}
+
+.wp-block-quote.is-style-neon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, var(--wp--preset--color--accent-1), var(--wp--preset--color--accent-2), var(--wp--preset--color--accent-1));
+    opacity: 0.1;
+    animation: neonShift 8s ease infinite;
+}
+
+@keyframes neonShift {
+    0%, 100% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(180deg) scale(1.1); }
+}
+
+.wp-block-quote.is-style-neon p {
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: var(--wp--preset--color--base);
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.wp-block-quote.is-style-neon cite {
+    display: inline-block;
+    font-style: normal;
+    font-size: 0.95rem;
+    color: var(--wp--preset--color--accent-2);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 0 10px var(--wp--preset--color--accent-2);
+}
+
+/* 7. Organic Flow */
+.wp-block-quote.is-style-organic {
+    position: relative;
+    padding: 50px;
+    margin: 40px 0;
+    background: linear-gradient(135deg, var(--wp--preset--color--accent-3) 0%, var(--wp--preset--color--accent-7) 100%);
+    border-radius: 60% 40% 70% 30% / 40% 60% 30% 70%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    animation: organicMove 10s ease-in-out infinite;
+    border: none;
+}
+
+@keyframes organicMove {
+    0%, 100% { border-radius: 60% 40% 70% 30% / 40% 60% 30% 70%; }
+    50% { border-radius: 40% 60% 30% 70% / 60% 40% 70% 30%; }
+}
+
+.wp-block-quote.is-style-organic p {
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: var(--wp--preset--color--accent-4);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.wp-block-quote.is-style-organic cite {
+    display: block;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--wp--preset--color--accent-4);
+    font-weight: 600;
+}
+
+.wp-block-quote.is-style-organic cite::before {
+    content: '🌿 ';
+    margin-right: 6px;
+}
+
+/* 8. Split Tone */
+.wp-block-quote.is-style-split-tone {
+    position: relative;
+    padding: 0;
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.wp-block-quote.is-style-split-tone::before {
+    content: '';
+    background: linear-gradient(180deg, var(--wp--preset--color--accent-1) 0%, var(--wp--preset--color--accent-4) 100%);
+    grid-column: 1;
+}
+
+.wp-block-quote.is-style-split-tone p {
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: 1.35rem;
+    line-height: 1.8;
+    color: var(--wp--preset--color--contrast);
+    margin-bottom: 20px;
+    padding: 45px 50px 0;
+    grid-column: 2;
+    background: var(--wp--preset--color--base);
+}
+
+.wp-block-quote.is-style-split-tone cite {
+    display: block;
+    font-style: normal;
+    font-size: 0.95rem;
+    color: var(--wp--preset--color--accent-5);
+    font-weight: 600;
+    padding: 0 50px 45px;
+    grid-column: 2;
+    background: var(--wp--preset--color--base);
+}
+
+/* 9. Double Border Frame */
+.wp-block-quote.is-style-double-border {
+    position: relative;
+    padding: 50px;
+    margin: 40px 0;
+    background: var(--wp--preset--color--base);
+    box-shadow: inset 0 0 0 2px var(--wp--preset--color--accent-8), inset 0 0 0 6px var(--wp--preset--color--base), inset 0 0 0 8px var(--wp--preset--color--accent-8);
+    border: none;
+}
+
+.wp-block-quote.is-style-double-border p {
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: 1.45rem;
+    line-height: 1.8;
+    color: var(--wp--preset--color--contrast);
+    font-style: italic;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.wp-block-quote.is-style-double-border cite {
+    display: block;
+    font-style: normal;
+    font-size: 1rem;
+    color: var(--wp--preset--color--accent-5);
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.wp-block-quote.is-style-double-border cite::before {
+    content: '◇ ';
+}
+
+.wp-block-quote.is-style-double-border cite::after {
+    content: ' ◇';
+}
+
+/* 10. Sticky Note */
+.wp-block-quote.is-style-sticky-note {
+    position: relative;
+    padding: 40px;
+    margin: 40px 0;
+    background: var(--wp--preset--color--accent-9);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.05);
+    transform: rotate(-1deg);
+    transition: transform 0.3s ease;
+    border: none;
+}
+
+.wp-block-quote.is-style-sticky-note::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 20px;
+    background: var(--wp--preset--color--accent-8);
+    border-radius: 0 0 50% 50%;
+    opacity: 0.3;
+}
+
+.wp-block-quote.is-style-sticky-note:hover {
+    transform: rotate(0deg);
+}
+
+.wp-block-quote.is-style-sticky-note p {
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: 1.3rem;
+    line-height: 1.7;
+    color: var(--wp--preset--color--contrast);
+    margin-bottom: 20px;
+}
+
+.wp-block-quote.is-style-sticky-note cite {
+    display: block;
+    font-style: normal;
+    font-size: 0.95rem;
+    color: var(--wp--preset--color--accent-5);
+    text-align: right;
+}
+
+/* ============================================
+   3. RESPONSIVE & ACCESSIBILITY
+   ============================================ */
+
+/* Tablet & Mobile */
+@media (max-width: 768px) {
+    /* Paragraph Quotes */
+    .wp-block-quote.is-style-gray-sidebar,
+    .wp-block-quote.is-style-minimalist-mark,
+    .wp-block-quote.is-style-centered-minimal,
+    .wp-block-quote.is-style-clean-left {
+        font-size: 1.15rem;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Block Quotes */
+    .wp-block-quote.is-style-editorial {
+        padding: 40px 20px 40px 60px;
+    }
+
+    .wp-block-quote.is-style-editorial::before {
+        font-size: 80px;
+        left: 10px;
+    }
+
+    .wp-block-quote.is-style-editorial p,
+    .wp-block-quote.is-style-minimalist-zen p,
+    .wp-block-quote.is-style-colored-accent p,
+    .wp-block-quote.is-style-neon p,
+    .wp-block-quote.is-style-organic p {
+        font-size: 1.2rem;
+    }
+
+    .wp-block-quote.is-style-handwritten,
+    .wp-block-quote.is-style-newspaper,
+    .wp-block-quote.is-style-double-border,
+    .wp-block-quote.is-style-sticky-note {
+        padding: 30px 20px;
+    }
+
+    .wp-block-quote.is-style-split-tone {
+        grid-template-columns: 40px 1fr;
+    }
+
+    .wp-block-quote.is-style-split-tone p {
+        padding: 30px 20px 0;
+    }
+
+    .wp-block-quote.is-style-split-tone cite {
+        padding: 0 20px 30px;
+    }
+
+    .wp-block-quote.is-style-neon,
+    .wp-block-quote.is-style-organic {
+        padding: 35px 25px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .wp-block-quote.is-style-centered-minimal,
+    .wp-block-quote.is-style-minimalist-zen {
+        padding: 30px 15px;
+    }
+
+    .wp-block-quote.is-style-editorial p,
+    .wp-block-quote.is-style-colored-accent p,
+    .wp-block-quote.is-style-handwritten p,
+    .wp-block-quote.is-style-newspaper p {
+        font-size: 1.1rem;
+    }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    .wp-block-quote.is-style-neon {
+        border: 2px solid var(--wp--preset--color--accent-2);
+    }
+
+    .wp-block-quote.is-style-organic {
+        border: 2px solid var(--wp--preset--color--accent-4);
+    }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    .wp-block-quote.is-style-neon::before {
+        animation: none;
+    }
+
+    .wp-block-quote.is-style-organic {
+        animation: none;
+        border-radius: 20px;
+    }
+
+    .wp-block-quote.is-style-sticky-note {
+        transform: rotate(0deg);
+    }
+
+    .wp-block-quote.is-style-sticky-note:hover {
+        transform: rotate(0deg);
+    }
+}
+
+/* Print Styles */
+@media print {
+    .wp-block-quote.is-style-neon {
+        background: var(--wp--preset--color--base);
+        border: 2px solid var(--wp--preset--color--contrast);
+    }
+
+    .wp-block-quote.is-style-neon p,
+    .wp-block-quote.is-style-neon cite {
+        color: var(--wp--preset--color--contrast) !important;
+        text-shadow: none;
+    }
+
+    .wp-block-quote.is-style-organic {
+        animation: none;
+        border-radius: 20px;
+    }
+
+    .wp-block-quote.is-style-sticky-note {
+        transform: rotate(0deg);
+    }
+}
