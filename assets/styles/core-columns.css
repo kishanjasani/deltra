@@ -1,0 +1,43 @@
+/**
+ * Columns Block Variations - Deltra Theme
+ * Version: 1.0.11
+ *
+ * Custom styles for WordPress Columns block
+ */
+
+/* ============================================
+   1. EQUAL HEIGHT COLUMNS
+   ============================================ */
+
+/**
+ * Forces all columns to have equal height
+ * Useful for cards or content blocks that need consistent height
+ */
+.wp-block-columns.is-style-equal-height {
+    display: flex;
+    align-items: stretch;
+}
+
+.wp-block-columns.is-style-equal-height > .wp-block-column {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.wp-block-columns.is-style-equal-height > .wp-block-column > * {
+    flex-grow: 1;
+}
+
+/* ============================================
+   2. MOBILE REVERSE COLUMNS
+   ============================================ */
+
+/**
+ * Reverses the column order on mobile devices
+ * Useful when the visual order should be different on mobile
+ */
+@media only screen and (max-width: 781px) {
+    .wp-block-columns.is-style-mobile-reverse {
+        flex-direction: column-reverse;
+    }
+}

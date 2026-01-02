@@ -1,0 +1,60 @@
+/**
+ * Post Template Block Styles - Deltra Theme
+ * Version: 1.0.0
+ *
+ * Custom styles for WordPress Post Template block
+ */
+
+/* ============================================
+   1. GRID LAYOUT FIXES
+   ============================================ */
+
+/**
+ * Ensures post groups fill full height in grid layouts
+ * Creates consistent card heights when using grid view
+ */
+.wp-block-post-template.is-layout-grid .wp-block-post > .wp-block-group {
+    height: 100%;
+}
+
+/* ============================================
+   2. FEATURED IMAGE STYLES
+   ============================================ */
+
+/**
+ * Tall featured image aspect ratio
+ * Can be applied to featured images or cover blocks
+ */
+.has-post-image-tall {
+    aspect-ratio: 3/4;
+}
+
+.wp-block-cover.has-post-image-tall,
+.wp-block-cover-image.has-post-image-tall {
+    min-height: auto;
+}
+
+/* ============================================
+   3. MOBILE RESPONSIVE UTILITIES
+   ============================================ */
+
+/**
+ * Mobile-specific adjustments for post templates
+ */
+@media (max-width: 781px) {
+
+    /* Adjust featured image aspect ratio on mobile */
+    .has-post-image-tall {
+        aspect-ratio: 16/9;
+    }
+
+    .wp-block-cover.has-post-image-tall,
+    .wp-block-cover-image.has-post-image-tall {
+        min-height: auto;
+    }
+
+    /* Force left alignment on mobile */
+    .align-left-mobile {
+        text-align: left;
+    }
+}

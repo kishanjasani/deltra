@@ -39,6 +39,27 @@ The Solid FSE Theme for Modern WordPress Creativity
 
 ---
 
+## 📝 Using Custom Block Styles
+
+### Post Template Styles
+
+The theme includes several post template enhancements that work automatically or can be applied manually:
+
+#### Grid Layout Fix (Auto-applied)
+- Automatically ensures post groups fill full height in grid layouts
+- Creates consistent card heights when using grid view
+- No manual configuration needed
+
+#### Utility Classes
+For additional styling options, add these classes manually using the block's **"Additional CSS class(es)"** field in the Advanced settings panel:
+
+- **`has-post-image-tall`** - Apply to featured images or cover blocks for responsive aspect ratios (3:4 on desktop, 16:9 on mobile)
+- **`align-left-mobile`** - Forces left text alignment on mobile devices (below 781px)
+
+The styles are automatically enqueued by the theme's asset system when needed.
+
+---
+
 ## 🛠️ Development Scripts
 
 This theme comes with helpful scripts to lint and maintain clean code.

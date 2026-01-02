@@ -43,7 +43,7 @@ class Deltra_Block_Style_Register {
 				'button-background' => __( 'Background', 'deltra' ),
 				'button-text'       => __( 'Text', 'deltra' ),
 			),
-			'core/quote'  => array(
+			'core/quote'   => array(
 				'gray-sidebar'     => __( 'Light Gray Sidebar', 'deltra' ),
 				'minimalist-mark'  => __( 'Minimalist Mark', 'deltra' ),
 				'centered-minimal' => __( 'Centered Minimal', 'deltra' ),
@@ -58,6 +58,10 @@ class Deltra_Block_Style_Register {
 				'split-tone'       => __( 'Split Tone', 'deltra' ),
 				'double-border'    => __( 'Double Border Frame', 'deltra' ),
 				'sticky-note'      => __( 'Sticky Note', 'deltra' ),
+			),
+			'core/columns' => array(
+				'equal-height'   => __( 'Equal Height', 'deltra' ),
+				'mobile-reverse' => __( 'Mobile Reverse', 'deltra' ),
 			),
 		);
 
