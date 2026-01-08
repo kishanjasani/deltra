@@ -19,6 +19,7 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 * New: Column block variations
 * New: Post template grid layout enhancements
 * New: Post template utility classes (has-post-image-tall, align-left-mobile)
+* New: FAQ Section pattern with accordion blocks
 
 = 2025.01.01 - version 1.0.10 =
 * New: Quote block variations
