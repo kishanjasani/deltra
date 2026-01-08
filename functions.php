@@ -120,6 +120,24 @@ function deltra_register_block_pattern_categories() {
 add_action( 'init', 'deltra_register_block_pattern_categories' );
 
 /**
+ * Conditionally unregister patterns based on WordPress version.
+ *
+ * @since Deltra 1.0
+ *
+ * @return void
+ */
+function deltra_conditional_patterns() {
+	global $wp_version;
+
+	// Unregister FAQ pattern on WordPress versions below 6.9.
+	if ( version_compare( $wp_version, '6.9', '<' ) ) {
+		unregister_block_pattern( 'deltra/faq' );
+	}
+}
+
+add_action( 'init', 'deltra_conditional_patterns', 20 ); // Priority 20 to run after auto-registration
+
+/**
  * Enqueues a JavaScript file for registering custom block variations in the block editor.
  *
  * @since Deltra 1.0
