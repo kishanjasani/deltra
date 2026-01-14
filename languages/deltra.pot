@@ -1,0 +1,1062 @@
+# Copyright (C) 2026 Kishan Jasani
+# This file is distributed under the GNU General Public License v3.0 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: deltra 1.0.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/deltra\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-01-14T12:15:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: deltra\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "deltra"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://github.com/kishanjasani/deltra"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Deltra is a WordPress block theme ready and able to be the foundation for your next great idea."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Kishan Jasani"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://kishanjasani.in"
+msgstr ""
+
+#: functions.php:57
+msgid "Header"
+msgstr ""
+
+#: functions.php:58
+msgid "Navigation and branding sections that form the first impression of your website."
+msgstr ""
+
+#: functions.php:61
+msgid "Footer"
+msgstr ""
+
+#: functions.php:62
+msgid "Essential sections for site-wide navigation, links, and information."
+msgstr ""
+
+#: functions.php:65
+msgid "Components"
+msgstr ""
+
+#: functions.php:66
+msgid "Reusable UI elements that help build complex layouts effortlessly."
+msgstr ""
+
+#: functions.php:69
+msgid "Content"
+msgstr ""
+
+#: functions.php:70
+msgid "Structured layouts for displaying rich content beautifully."
+msgstr ""
+
+#: functions.php:73
+msgid "CTA"
+msgstr ""
+
+#: functions.php:74
+msgid "Engaging patterns designed to encourage user interaction and conversions."
+msgstr ""
+
+#: functions.php:77
+msgid "Features"
+msgstr ""
+
+#: functions.php:78
+msgid "Showcase key offerings, benefits, or services in a visually striking way."
+msgstr ""
+
+#: functions.php:81
+msgid "Hero"
+msgstr ""
+
+#: functions.php:82
+msgid "High-impact sections designed to grab attention at the top of your pages."
+msgstr ""
+
+#: functions.php:85
+msgid "Pages"
+msgstr ""
+
+#: functions.php:86
+msgid "Full-page layouts to serve as a starting point for your next project."
+msgstr ""
+
+#: functions.php:89
+msgid "Social Logos"
+msgstr ""
+
+#: functions.php:90
+msgid "Showcase testimonials, reviews, and trust signals to boost credibility."
+msgstr ""
+
+#: functions.php:93
+msgid "Pricing"
+msgstr ""
+
+#: functions.php:94
+msgid "Clear and compelling pricing tables for your products or services."
+msgstr ""
+
+#: functions.php:97
+#: patterns/voice-of-customers-grid.php:20
+msgid "Testimonials"
+msgstr ""
+
+#: functions.php:98
+msgid "Customer reviews and feedback sections to build trust and credibility."
+msgstr ""
+
+#: functions.php:172
+msgctxt "Label for the block binding placeholder in the editor"
+msgid "Post format name"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:40
+msgid "Secondary"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:41
+msgid "Tertiary"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:42
+msgid "Foreground"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:43
+msgid "Background"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:44
+msgid "Text"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:47
+msgid "Light Gray Sidebar"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:48
+msgid "Minimalist Mark"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:49
+msgid "Centered Minimal"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:50
+msgid "Clean Left Border"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:51
+msgid "Editorial Elegance"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:52
+msgid "Minimalist Zen"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:53
+msgid "Colored Accent"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:54
+msgid "Handwritten Charm"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:55
+msgid "Newspaper Classic"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:56
+msgid "Neon Glow"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:57
+msgid "Organic Flow"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:58
+msgid "Split Tone"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:59
+msgid "Double Border Frame"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:60
+msgid "Sticky Note"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:63
+msgid "Equal Height"
+msgstr ""
+
+#: inc/class-deltra-block-style-register.php:64
+msgid "Mobile Reverse"
+msgstr ""
+
+#: patterns/coming-soon-alt.php
+msgctxt "Pattern title"
+msgid "Coming Soon - Light"
+msgstr ""
+
+#: patterns/coming-soon-alt.php
+msgctxt "Pattern description"
+msgid "A simple and elegant coming soon page with heading, message, and email signup (light version)."
+msgstr ""
+
+#: patterns/coming-soon-alt.php:18
+#: patterns/coming-soon.php:18
+msgid "Launching Soon"
+msgstr ""
+
+#: patterns/coming-soon-alt.php:23
+#: patterns/coming-soon.php:23
+msgid "Something Great is Coming"
+msgstr ""
+
+#: patterns/coming-soon-alt.php:29
+#: patterns/coming-soon.php:29
+msgid "We're working hard to bring you an amazing experience. Stay tuned for updates."
+msgstr ""
+
+#: patterns/coming-soon-alt.php:36
+#: patterns/coming-soon.php:36
+msgid "Get Notified When We Launch"
+msgstr ""
+
+#: patterns/coming-soon-alt.php:43
+#: patterns/coming-soon.php:43
+msgid "Notify Me"
+msgstr ""
+
+#: patterns/coming-soon.php
+msgctxt "Pattern title"
+msgid "Coming Soon"
+msgstr ""
+
+#: patterns/coming-soon.php
+msgctxt "Pattern description"
+msgid "A simple and elegant coming soon page with heading, message, and email signup."
+msgstr ""
+
+#: patterns/components-card-horizontal-alt.php
+msgctxt "Pattern title"
+msgid "Components - Horizontal Card Alt"
+msgstr ""
+
+#: patterns/components-card-horizontal-alt.php
+msgctxt "Pattern description"
+msgid "Alt Horizontal card components with background color."
+msgstr ""
+
+#: patterns/components-card-horizontal-alt.php:21
+#: patterns/components-card-horizontal.php:21
+#: patterns/components-card-vertical-alt.php:17
+#: patterns/components-card-vertical.php:17
+msgid "Home office with a wooden desk placed near a large window allowing natural light to flood the room."
+msgstr ""
+
+#: patterns/components-card-horizontal-alt.php:31
+#: patterns/components-card-horizontal.php:31
+#: patterns/components-card-vertical-alt.php:23
+#: patterns/components-card-vertical.php:23
+msgid "Sample heading. The quick brown fox jumps over the lazy dog."
+msgstr ""
+
+#: patterns/components-card-horizontal-alt.php:37
+#: patterns/components-card-horizontal.php:37
+#: patterns/components-card-vertical-alt.php:29
+#: patterns/components-card-vertical.php:29
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed sem sodales, imperdiet nunc sed, vestibulum ligula. Nam in urna est."
+msgstr ""
+
+#: patterns/components-card-horizontal-alt.php:45
+#: patterns/components-card-horizontal.php:45
+#: patterns/components-card-vertical-alt.php:37
+#: patterns/components-card-vertical.php:37
+msgid "Join Now"
+msgstr ""
+
+#: patterns/components-card-horizontal-alt.php:51
+#: patterns/components-card-horizontal.php:51
+#: patterns/components-card-vertical-alt.php:43
+#: patterns/components-card-vertical.php:43
+#: patterns/hero-two-column-introduction.php:55
+msgid "Learn More"
+msgstr ""
+
+#: patterns/components-card-horizontal.php
+msgctxt "Pattern title"
+msgid "Components - Horizontal Card"
+msgstr ""
+
+#: patterns/components-card-horizontal.php
+msgctxt "Pattern description"
+msgid "Horizontal card components."
+msgstr ""
+
+#: patterns/components-card-vertical-alt.php
+msgctxt "Pattern title"
+msgid "Components - Vertical Card Alt"
+msgstr ""
+
+#: patterns/components-card-vertical-alt.php
+msgctxt "Pattern description"
+msgid "Alt vertical card components - With background color."
+msgstr ""
+
+#: patterns/components-card-vertical.php
+msgctxt "Pattern title"
+msgid "Components - Vertical Card"
+msgstr ""
+
+#: patterns/components-card-vertical.php
+msgctxt "Pattern description"
+msgid "A vertical card components."
+msgstr ""
+
+#: patterns/components-chips.php
+msgctxt "Pattern title"
+msgid "Components - Chips"
+msgstr ""
+
+#: patterns/components-chips.php
+msgctxt "Pattern description"
+msgid "A chips components."
+msgstr ""
+
+#: patterns/components-chips.php:18
+msgid "Basic Chip"
+msgstr ""
+
+#: patterns/components-chips.php:26
+msgid "👋 Hello"
+msgstr ""
+
+#: patterns/components-chips.php:34
+msgid "🔥 Most Popular"
+msgstr ""
+
+#: patterns/components-chips.php:42
+msgid "👉 Check it out"
+msgstr ""
+
+#: patterns/components-chips.php:50
+msgid "🚀 New!"
+msgstr ""
+
+#: patterns/default-query-grid-alt.php
+msgctxt "Pattern title"
+msgid "Default posts grid - Alt"
+msgstr ""
+
+#: patterns/default-query-grid-alt.php
+#: patterns/default-query-grid.php
+msgctxt "Pattern description"
+msgid "A list of posts with featured image and post date."
+msgstr ""
+
+#: patterns/default-query-grid-alt.php:46
+#: patterns/default-query-grid.php:47
+#: patterns/default-query-list-alt.php:49
+#: patterns/default-query-list.php:49
+msgid "Add text or blocks that will display when a query returns no results."
+msgstr ""
+
+#: patterns/default-query-grid-alt.php:47
+#: patterns/default-query-grid.php:48
+#: patterns/default-query-list-alt.php:50
+#: patterns/default-query-list.php:50
+msgctxt "Message explaining that there are no results returned from a search."
+msgid "Sorry, but nothing was found. Please try a search with different keywords."
+msgstr ""
+
+#: patterns/default-query-grid.php
+msgctxt "Pattern title"
+msgid "Default posts grid"
+msgstr ""
+
+#: patterns/default-query-list-alt.php
+msgctxt "Pattern title"
+msgid "Default posts list - Alt"
+msgstr ""
+
+#: patterns/default-query-list-alt.php
+msgctxt "Pattern description"
+msgid "A list of posts with title and post date with list view-alt."
+msgstr ""
+
+#: patterns/default-query-list.php
+msgctxt "Pattern title"
+msgid "Default posts list"
+msgstr ""
+
+#: patterns/default-query-list.php
+msgctxt "Pattern description"
+msgid "A list of posts with title and post date with list view."
+msgstr ""
+
+#: patterns/faq.php
+msgctxt "Pattern title"
+msgid "FAQ Section"
+msgstr ""
+
+#: patterns/faq.php
+msgctxt "Pattern description"
+msgid "A frequently asked questions section using accordion blocks for expandable Q&A content."
+msgstr ""
+
+#: patterns/faq.php:20
+msgid "Got Questions?"
+msgstr ""
+
+#: patterns/faq.php:24
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: patterns/faq.php:28
+msgid "Find answers to common questions about our services, products, and support."
+msgstr ""
+
+#: patterns/faq.php:38
+msgid "What services do you offer?"
+msgstr ""
+
+#: patterns/faq.php:43
+msgid "We offer a comprehensive range of digital services including web design, brand development, content creation, and digital marketing. Our team works closely with clients to create customized solutions that align with their business goals and target audience needs."
+msgstr ""
+
+#: patterns/faq.php:52
+msgid "How long does a typical project take?"
+msgstr ""
+
+#: patterns/faq.php:58
+msgid "Project timelines vary depending on scope and complexity. A typical website project takes 4-8 weeks from initial consultation to launch. We provide detailed project timelines during the planning phase and maintain regular communication throughout the process."
+msgstr ""
+
+#: patterns/faq.php:68
+msgid "What is your pricing structure?"
+msgstr ""
+
+#: patterns/faq.php:74
+msgid "Our pricing is project-based and tailored to your specific needs. We offer transparent quotes after an initial consultation where we discuss your requirements, goals, and budget. We believe in providing value and ensure there are no hidden costs."
+msgstr ""
+
+#: patterns/faq.php:84
+msgid "Do you provide ongoing support?"
+msgstr ""
+
+#: patterns/faq.php:90
+msgid "Yes, we offer various support and maintenance packages to keep your website running smoothly. This includes regular updates, security monitoring, content updates, and technical support. We also provide training so you can manage basic content updates yourself."
+msgstr ""
+
+#: patterns/faq.php:99
+msgid "How do I get started?"
+msgstr ""
+
+#: patterns/faq.php:104
+msgid "Getting started is easy! Simply reach out through our contact form or schedule a consultation call. We'll discuss your project needs, timeline, and budget. After our initial conversation, we'll provide a detailed proposal and project plan."
+msgstr ""
+
+#: patterns/footer-navigation.php
+msgctxt "Pattern title"
+msgid "Footer - Navigation"
+msgstr ""
+
+#: patterns/footer-navigation.php
+msgctxt "Pattern description"
+msgid "Footer with logo, navigation and social links."
+msgstr ""
+
+#: patterns/footer-navigation.php:29
+msgid "Home"
+msgstr ""
+
+#: patterns/footer-navigation.php:35
+msgid "Landing Pages"
+msgstr ""
+
+#: patterns/footer-navigation.php:41
+msgid "Blog"
+msgstr ""
+
+#: patterns/footer-navigation.php:49
+msgid "Contact Us"
+msgstr ""
+
+#. Translators: %1$s is the current year, %2$s is the site name.
+#: patterns/footer-navigation.php:68
+#: patterns/footer.php:33
+msgid "&copy; %1$s %2$s. All rights reserved."
+msgstr ""
+
+#: patterns/footer-navigation.php:79
+#: patterns/footer.php:44
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer-navigation.php:83
+#: patterns/footer.php:48
+msgid "/"
+msgstr ""
+
+#: patterns/footer-navigation.php:87
+#: patterns/footer.php:52
+msgid "Cookie Policy"
+msgstr ""
+
+#: patterns/footer-navigation.php:103
+#: patterns/footer.php:78
+msgid "Deltra Logo"
+msgstr ""
+
+#: patterns/footer-navigation.php:104
+#: patterns/footer.php:79
+msgid "Powered by Deltra"
+msgstr ""
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Footer Default"
+msgstr ""
+
+#: patterns/footer.php
+msgctxt "Pattern description"
+msgid "Footer with logo, title, copyright text and social links."
+msgstr ""
+
+#: patterns/header-alt.php
+msgctxt "Pattern title"
+msgid "Header - Alt"
+msgstr ""
+
+#: patterns/header-alt.php
+msgctxt "Pattern description"
+msgid "Alt Header with logo, site title and navigation."
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Header Default"
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern description"
+msgid "Header with logo, site title and navigation."
+msgstr ""
+
+#: patterns/hero-two-column-introduction.php
+msgctxt "Pattern title"
+msgid "Hero - Two Column Introduction"
+msgstr ""
+
+#: patterns/hero-two-column-introduction.php
+msgctxt "Pattern description"
+msgid "A two-column hero section with introduction text and profile image."
+msgstr ""
+
+#: patterns/hero-two-column-introduction.php:21
+msgid "Professional portrait of a creative digital designer in their workspace."
+msgstr ""
+
+#: patterns/hero-two-column-introduction.php:30
+msgid "Featured Heading"
+msgstr ""
+
+#: patterns/hero-two-column-introduction.php:35
+msgid "Hi, I'm Luna. I am digital experiences creator."
+msgstr ""
+
+#: patterns/hero-two-column-introduction.php:41
+msgid "I help brands and creators bring their ideas to life through clean design and thoughtful content. If you're looking to build something meaningful, you're in the right place."
+msgstr ""
+
+#: patterns/hero-two-column-introduction.php:49
+msgid "Get Started"
+msgstr ""
+
+#: patterns/social-logo.php
+msgctxt "Pattern title"
+msgid "Social - Logos"
+msgstr ""
+
+#: patterns/social-logo.php
+msgctxt "Pattern description"
+msgid "Social logo like Facebook, WordPress, GitHub."
+msgstr ""
+
+#: patterns/social-logo.php:17
+msgid "Featured In"
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php
+msgctxt "Pattern title"
+msgid "Voice of Customers - Grid"
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php
+msgctxt "Pattern description"
+msgid "A testimonials section with grid layout featuring customer reviews and ratings."
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php:24
+msgid "What our customers are saying"
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php:38
+#: patterns/voice-of-customers-grid.php:78
+#: patterns/voice-of-customers-grid.php:118
+msgid "5 star rating"
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php:42
+msgid "Working with this team transformed our online presence. The attention to detail and creative solutions exceeded our expectations. Highly recommended!"
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php:50
+#: patterns/voice-of-customers-grid.php:90
+#: patterns/voice-of-customers-grid.php:130
+msgid "Customer avatar"
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php:56
+msgid "Sarah Mitchell"
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php:60
+msgid "Marketing Director"
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php:82
+msgid "Professional, responsive, and incredibly talented. They delivered our project on time and the results speak for themselves. Our conversions increased by 40%."
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php:96
+msgid "James Anderson"
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php:100
+msgid "Founder, TechStart"
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php:122
+msgid "From concept to launch, the entire experience was seamless. They truly understood our vision and brought it to life beautifully. A pleasure to work with!"
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php:136
+msgid "Emily Chen"
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php:140
+msgid "Creative Director"
+msgstr ""
+
+#: patterns/voice-of-customers-grid.php:157
+msgid "Read All Reviews"
+msgstr ""
+
+#: styles/graceful-rose.json
+msgctxt "Style variation name"
+msgid "Graceful: Rose"
+msgstr ""
+
+#: styles/graceful-rose.json
+#: styles/minimal-dark.json
+#: styles/natural-deep-ocean.json
+#: styles/natural-seafoam.json
+#: styles/natural-terracotta.json
+#: styles/natural-verdant-mist.json
+#: styles/neon-electric-lemon.json
+#: styles/neon-lime-glow.json
+#: styles/neon-mint-pulse.json
+#: styles/neon-pulse-pink.json
+#: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: styles/graceful-rose.json
+#: styles/minimal-dark.json
+#: styles/natural-deep-ocean.json
+#: styles/natural-seafoam.json
+#: styles/natural-terracotta.json
+#: styles/natural-verdant-mist.json
+#: styles/neon-electric-lemon.json
+#: styles/neon-lime-glow.json
+#: styles/neon-mint-pulse.json
+#: styles/neon-pulse-pink.json
+#: theme.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr ""
+
+#: styles/graceful-rose.json
+#: styles/minimal-dark.json
+#: styles/natural-deep-ocean.json
+#: styles/natural-seafoam.json
+#: styles/natural-terracotta.json
+#: styles/natural-verdant-mist.json
+#: styles/neon-electric-lemon.json
+#: styles/neon-lime-glow.json
+#: styles/neon-mint-pulse.json
+#: styles/neon-pulse-pink.json
+#: theme.json
+msgctxt "Color name"
+msgid "Accent 1"
+msgstr ""
+
+#: styles/graceful-rose.json
+#: styles/minimal-dark.json
+#: styles/natural-deep-ocean.json
+#: styles/natural-seafoam.json
+#: styles/natural-terracotta.json
+#: styles/natural-verdant-mist.json
+#: styles/neon-electric-lemon.json
+#: styles/neon-lime-glow.json
+#: styles/neon-mint-pulse.json
+#: styles/neon-pulse-pink.json
+#: theme.json
+msgctxt "Color name"
+msgid "Accent 2"
+msgstr ""
+
+#: styles/graceful-rose.json
+#: styles/minimal-dark.json
+#: styles/natural-deep-ocean.json
+#: styles/natural-seafoam.json
+#: styles/natural-terracotta.json
+#: styles/natural-verdant-mist.json
+#: styles/neon-electric-lemon.json
+#: styles/neon-lime-glow.json
+#: styles/neon-mint-pulse.json
+#: styles/neon-pulse-pink.json
+#: theme.json
+msgctxt "Color name"
+msgid "Accent 3"
+msgstr ""
+
+#: styles/graceful-rose.json
+#: styles/minimal-dark.json
+#: styles/natural-deep-ocean.json
+#: styles/natural-seafoam.json
+#: styles/natural-terracotta.json
+#: styles/natural-verdant-mist.json
+#: styles/neon-electric-lemon.json
+#: styles/neon-lime-glow.json
+#: styles/neon-mint-pulse.json
+#: styles/neon-pulse-pink.json
+#: theme.json
+msgctxt "Color name"
+msgid "Accent 4"
+msgstr ""
+
+#: styles/graceful-rose.json
+#: styles/minimal-dark.json
+#: styles/natural-deep-ocean.json
+#: styles/natural-seafoam.json
+#: styles/natural-terracotta.json
+#: styles/natural-verdant-mist.json
+#: styles/neon-electric-lemon.json
+#: styles/neon-lime-glow.json
+#: styles/neon-mint-pulse.json
+#: styles/neon-pulse-pink.json
+#: theme.json
+msgctxt "Color name"
+msgid "Accent 5"
+msgstr ""
+
+#: styles/graceful-rose.json
+#: styles/minimal-dark.json
+#: styles/natural-deep-ocean.json
+#: styles/natural-seafoam.json
+#: styles/natural-terracotta.json
+#: styles/natural-verdant-mist.json
+#: styles/neon-electric-lemon.json
+#: styles/neon-lime-glow.json
+#: styles/neon-mint-pulse.json
+#: styles/neon-pulse-pink.json
+#: theme.json
+msgctxt "Color name"
+msgid "Accent 6"
+msgstr ""
+
+#: styles/graceful-rose.json
+#: styles/minimal-dark.json
+#: styles/natural-deep-ocean.json
+#: styles/natural-seafoam.json
+#: styles/natural-terracotta.json
+#: styles/natural-verdant-mist.json
+#: styles/neon-electric-lemon.json
+#: styles/neon-lime-glow.json
+#: styles/neon-mint-pulse.json
+#: styles/neon-pulse-pink.json
+#: theme.json
+msgctxt "Color name"
+msgid "Accent 7"
+msgstr ""
+
+#: styles/graceful-rose.json
+#: styles/minimal-dark.json
+#: styles/natural-deep-ocean.json
+#: styles/natural-seafoam.json
+#: styles/natural-terracotta.json
+#: styles/natural-verdant-mist.json
+#: styles/neon-electric-lemon.json
+#: styles/neon-lime-glow.json
+#: styles/neon-mint-pulse.json
+#: styles/neon-pulse-pink.json
+#: theme.json
+msgctxt "Color name"
+msgid "Accent 8"
+msgstr ""
+
+#: styles/graceful-rose.json
+msgctxt "Font family name"
+msgid "Merriweather Sans"
+msgstr ""
+
+#: styles/graceful-rose.json
+msgctxt "Font family name"
+msgid "Gloock"
+msgstr ""
+
+#: styles/minimal-dark.json
+msgctxt "Style variation name"
+msgid "Minimal: Dark"
+msgstr ""
+
+#: styles/minimal-dark.json
+#: theme.json
+msgctxt "Color name"
+msgid "Accent 9"
+msgstr ""
+
+#: styles/minimal-dark.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr ""
+
+#: styles/minimal-dark.json
+msgctxt "Font family name"
+msgid "Figtree"
+msgstr ""
+
+#: styles/natural-deep-ocean.json
+msgctxt "Style variation name"
+msgid "Natural: Deep Ocean"
+msgstr ""
+
+#: styles/natural-deep-ocean.json
+#: styles/natural-seafoam.json
+#: styles/natural-terracotta.json
+#: styles/natural-verdant-mist.json
+msgctxt "Font family name"
+msgid "PT Sans"
+msgstr ""
+
+#: styles/natural-deep-ocean.json
+#: styles/natural-seafoam.json
+#: styles/natural-terracotta.json
+#: styles/natural-verdant-mist.json
+msgctxt "Font family name"
+msgid "PT Serif"
+msgstr ""
+
+#: styles/natural-seafoam.json
+msgctxt "Style variation name"
+msgid "Natural: Seafoam"
+msgstr ""
+
+#: styles/natural-terracotta.json
+msgctxt "Style variation name"
+msgid "Natural: Terracotta"
+msgstr ""
+
+#: styles/natural-verdant-mist.json
+msgctxt "Style variation name"
+msgid "Natural: Verdant Mist"
+msgstr ""
+
+#: styles/neon-electric-lemon.json
+msgctxt "Style variation name"
+msgid "Neon: Electric Lemon"
+msgstr ""
+
+#: styles/neon-electric-lemon.json
+#: styles/neon-lime-glow.json
+#: styles/neon-mint-pulse.json
+#: styles/neon-pulse-pink.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: styles/neon-electric-lemon.json
+#: styles/neon-lime-glow.json
+#: styles/neon-mint-pulse.json
+#: styles/neon-pulse-pink.json
+msgctxt "Font family name"
+msgid "Space Grotesk"
+msgstr ""
+
+#: styles/neon-lime-glow.json
+msgctxt "Style variation name"
+msgid "Neon: Lime Glow"
+msgstr ""
+
+#: styles/neon-mint-pulse.json
+msgctxt "Style variation name"
+msgid "Neon: Mint Pulse"
+msgstr ""
+
+#: styles/neon-pulse-pink.json
+msgctxt "Style variation name"
+msgid "Neon: Pulse Pink"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "20"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "30"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "40"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "50"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "60"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "70"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "80"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X-Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X-Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XX-Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Giant"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Fira Code"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "RobotoMono"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X-Small (Fixed)"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X-Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X-Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XX-Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Giant"
+msgstr ""
