@@ -17,6 +17,31 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 
 = 2025.01.XX - version 1.0.12 =
 * New: Add PO file for theme language translation
+* New: Brand Showcase pattern - Logo grid showcasing featured brands, partners, or media mentions
+* New: Brand Showcase Dark pattern - Dark-themed variant of the brand showcase with brand logos
+* New: Customer Reviews pattern - Display customer rating with stars, avatars, and review count for social proof
+* New: Customer Reviews Dark pattern - Dark-themed customer reviews with rating display
+* New: Pricing - Annual Membership pattern - Single pricing plan with icon, features list, and call-to-action button
+* New: Pricing - Annual Membership Dark pattern - Dark-themed annual membership pricing plan
+* New: Pricing - Feature Comparison pattern - Feature comparison table for pricing plans
+* New: Pricing - Feature Comparison Dark pattern - Dark-themed pricing feature comparison table
+* New: Pricing - Product Showcase pattern - Product-focused pricing section with detailed features
+* New: Pricing - Product Showcase Dark pattern - Dark-themed product showcase pricing layout
+* New: Complete Pricing Table pattern - Comprehensive pricing section with plan cards, comparison table, testimonials, FAQ, and call-to-action
+* New: Pricing - Two Column pattern - Simple two-column pricing layout with featured and standard plan options
+* New: Pricing - Two Column Dark pattern - Dark-themed two-column pricing section with contrasting featured plan
+* New: Statistics Grid pattern - Grid layout showcasing key statistics and achievements with numbers and labels
+* New: Statistics Grid Dark pattern - Dark-themed statistics grid with key metrics display
+* New: Statistics List pattern - List-based statistics display with key achievements and numbers
+* New: Statistics List Dark pattern - Dark-themed statistics list layout
+* New: Testimonials - Single pattern - Single testimonial showcase with customer quote and avatar
+* New: Testimonials - Single Dark pattern - Dark-themed single testimonial display
+* New: Testimonials - Featured Grid pattern - Testimonials grid with one large featured testimonial and three smaller ones, plus brand logos
+* New: Testimonials - Featured Grid Dark pattern - Dark-themed featured testimonials grid layout
+* New: Testimonials - Masonry Grid pattern - Masonry-style testimonials grid with varied card heights
+* New: Testimonials - Masonry Grid Dark pattern - Dark-themed masonry testimonials layout
+* New: Voice of Customers - Grid Dark pattern - Dark-themed customer testimonials grid layout
+* Update: Translation files
 
 = 2025.01.10 - version 1.0.11 =
 * New: Column block variations
@@ -169,10 +194,11 @@ https://www.flickr.com/photos/24662369@N07/15780573201
 
 License: GPL v3.0, https://www.gnu.org/licenses/gpl-3.0.html
 Deltra theme logo
-AI-generated logo created for the theme
+AI-generated logo and images created for the theme
 Copyright: Kishan Jasani
 deltra.png
 deltra-small.png
+404.svg
 
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 Portrait of a happy girl with headphones pointing and smiling
