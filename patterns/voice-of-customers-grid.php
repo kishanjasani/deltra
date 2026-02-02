@@ -39,7 +39,7 @@
 						<!-- /wp:image -->
 
 						<!-- wp:paragraph -->
-						<p>"<?php esc_html_e( 'Working with this team transformed our online presence. The attention to detail and creative solutions exceeded our expectations. Highly recommended!', 'deltra' ); ?>"</p>
+						<p><?php esc_html_e( '"', 'deltra' ); ?><?php esc_html_e( 'Working with this team transformed our online presence. The attention to detail and creative solutions exceeded our expectations. Highly recommended!', 'deltra' ); ?><?php esc_html_e( '"', 'deltra' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -79,7 +79,7 @@
 						<!-- /wp:image -->
 
 						<!-- wp:paragraph -->
-						<p>"<?php esc_html_e( 'Professional, responsive, and incredibly talented. They delivered our project on time and the results speak for themselves. Our conversions increased by 40%.', 'deltra' ); ?>"</p>
+						<p><?php esc_html_e( '"', 'deltra' ); ?><?php esc_html_e( 'Professional, responsive, and incredibly talented. They delivered our project on time and the results speak for themselves. Our conversions increased by 40%.', 'deltra' ); ?><?php esc_html_e( '"', 'deltra' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -119,7 +119,7 @@
 						<!-- /wp:image -->
 
 						<!-- wp:paragraph -->
-						<p>"<?php esc_html_e( 'From concept to launch, the entire experience was seamless. They truly understood our vision and brought it to life beautifully. A pleasure to work with!', 'deltra' ); ?>"</p>
+						<p><?php esc_html_e( '"', 'deltra' ); ?><?php esc_html_e( 'From concept to launch, the entire experience was seamless. They truly understood our vision and brought it to life beautifully. A pleasure to work with!', 'deltra' ); ?><?php esc_html_e( '"', 'deltra' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->

@@ -292,7 +292,7 @@
 						<!-- /wp:image -->
 
 						<!-- wp:paragraph {"fontSize":"x-small"} -->
-						<p class="has-x-small-font-size">"<?php esc_html_e( 'The Professional plan has transformed how we manage our projects. The analytics features alone are worth the investment.', 'deltra' ); ?>"</p>
+						<p class="has-x-small-font-size"><?php esc_html_e( '"', 'deltra' ); ?><?php esc_html_e( 'The Professional plan has transformed how we manage our projects. The analytics features alone are worth the investment.', 'deltra' ); ?><?php esc_html_e( '"', 'deltra' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -332,7 +332,7 @@
 						<!-- /wp:image -->
 
 						<!-- wp:paragraph {"fontSize":"x-small"} -->
-						<p class="has-x-small-font-size">"<?php esc_html_e( 'Started with the Starter plan and quickly upgraded. The value for money is incredible compared to other solutions we tried.', 'deltra' ); ?>"</p>
+						<p class="has-x-small-font-size"><?php esc_html_e( '"', 'deltra' ); ?><?php esc_html_e( 'Started with the Starter plan and quickly upgraded. The value for money is incredible compared to other solutions we tried.', 'deltra' ); ?><?php esc_html_e( '"', 'deltra' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -372,7 +372,7 @@
 						<!-- /wp:image -->
 
 						<!-- wp:paragraph {"fontSize":"x-small"} -->
-						<p class="has-x-small-font-size">"<?php esc_html_e( 'The Enterprise plan provides everything our team needs. The dedicated support has been exceptional from day one.', 'deltra' ); ?>"</p>
+						<p class="has-x-small-font-size"><?php esc_html_e( '"', 'deltra' ); ?><?php esc_html_e( 'The Enterprise plan provides everything our team needs. The dedicated support has been exceptional from day one.', 'deltra' ); ?><?php esc_html_e( '"', 'deltra' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -499,7 +499,7 @@
 			<!-- wp:accordion-item -->
 			<div class="wp-block-accordion-item">
 				<!-- wp:accordion-heading -->
-				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'Can I change my plan later?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'Can I change my plan later?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true"><?php esc_html_e( '+', 'deltra' ); ?></span></button></h3>
 				<!-- /wp:accordion-heading -->
 
 				<!-- wp:accordion-panel -->
@@ -515,7 +515,7 @@
 			<!-- wp:accordion-item -->
 			<div class="wp-block-accordion-item">
 				<!-- wp:accordion-heading -->
-				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'Is there a free trial available?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'Is there a free trial available?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true"><?php esc_html_e( '+', 'deltra' ); ?></span></button></h3>
 				<!-- /wp:accordion-heading -->
 
 				<!-- wp:accordion-panel -->
@@ -531,7 +531,7 @@
 			<!-- wp:accordion-item -->
 			<div class="wp-block-accordion-item">
 				<!-- wp:accordion-heading -->
-				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'What payment methods do you accept?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'What payment methods do you accept?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true"><?php esc_html_e( '+', 'deltra' ); ?></span></button></h3>
 				<!-- /wp:accordion-heading -->
 
 				<!-- wp:accordion-panel -->
@@ -547,7 +547,7 @@
 			<!-- wp:accordion-item -->
 			<div class="wp-block-accordion-item">
 				<!-- wp:accordion-heading -->
-				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'Do you offer refunds?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'Do you offer refunds?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true"><?php esc_html_e( '+', 'deltra' ); ?></span></button></h3>
 				<!-- /wp:accordion-heading -->
 
 				<!-- wp:accordion-panel -->

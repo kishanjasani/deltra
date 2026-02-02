@@ -135,7 +135,7 @@ function deltra_conditional_patterns() {
 	}
 }
 
-add_action( 'init', 'deltra_conditional_patterns', 20 ); // Priority 20 to run after auto-registration
+add_action( 'init', 'deltra_conditional_patterns', 20 ); // Priority 20 to run after auto-registration.
 
 /**
  * Enqueues a JavaScript file for registering custom block variations in the block editor.

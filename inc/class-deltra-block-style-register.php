@@ -36,7 +36,7 @@ class Deltra_Block_Style_Register {
 	 */
 	public function register_block_styles() {
 		$block_styles = array(
-			'core/button' => array(
+			'core/button'  => array(
 				'button-secondary'  => __( 'Secondary', 'deltra' ),
 				'button-tertiary'   => __( 'Tertiary', 'deltra' ),
 				'button-foreground' => __( 'Foreground', 'deltra' ),

@@ -20,7 +20,7 @@
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 			<div class="wp-block-group">
 				<!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"clamp(6rem, 15vw, 10rem)","lineHeight":"1","fontWeight":"800"}}} -->
-				<h1 class="wp-block-heading" style="font-size:clamp(6rem, 15vw, 10rem);font-weight:800;line-height:1">404</h1>
+				<h1 class="wp-block-heading" style="font-size:clamp(6rem, 15vw, 10rem);font-weight:800;line-height:1"><?php esc_html_e( '404', 'deltra' ); ?></h1>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.25rem","lineHeight":"1.6"}},"className":"has-medium-font-size"} -->

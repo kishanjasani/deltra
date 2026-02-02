@@ -35,7 +35,7 @@
 			<!-- wp:accordion-item -->
 			<div class="wp-block-accordion-item">
 				<!-- wp:accordion-heading -->
-				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'What services do you offer?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'What services do you offer?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true"><?php esc_html_e( '+', 'deltra' ); ?></span></button></h3>
 				<!-- /wp:accordion-heading -->
 
 				<!-- wp:accordion-panel -->
@@ -49,7 +49,7 @@
 			<!-- wp:accordion-item -->
 			<div class="wp-block-accordion-item">
 				<!-- wp:accordion-heading -->
-				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'How long does a typical project take?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'How long does a typical project take?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true"><?php esc_html_e( '+', 'deltra' ); ?></span></button></h3>
 				<!-- /wp:accordion-heading -->
 
 				<!-- wp:accordion-panel -->
@@ -65,7 +65,7 @@
 			<!-- wp:accordion-item -->
 			<div class="wp-block-accordion-item">
 				<!-- wp:accordion-heading -->
-				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'What is your pricing structure?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'What is your pricing structure?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true"><?php esc_html_e( '+', 'deltra' ); ?></span></button></h3>
 				<!-- /wp:accordion-heading -->
 
 				<!-- wp:accordion-panel -->
@@ -81,7 +81,7 @@
 			<!-- wp:accordion-item -->
 			<div class="wp-block-accordion-item">
 				<!-- wp:accordion-heading -->
-				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'Do you provide ongoing support?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'Do you provide ongoing support?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true"><?php esc_html_e( '+', 'deltra' ); ?></span></button></h3>
 				<!-- /wp:accordion-heading -->
 
 				<!-- wp:accordion-panel -->
@@ -96,7 +96,7 @@
 			<!-- wp:accordion-item -->
 			<div class="wp-block-accordion-item">
 				<!-- wp:accordion-heading -->
-				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'How do I get started?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true">+</span></button></h3>
+				<h3 class="wp-block-accordion-heading"><button class="wp-block-accordion-heading__toggle"><span class="wp-block-accordion-heading__toggle-title"><?php esc_html_e( 'How do I get started?', 'deltra' ); ?></span><span class="wp-block-accordion-heading__toggle-icon" aria-hidden="true"><?php esc_html_e( '+', 'deltra' ); ?></span></button></h3>
 				<!-- /wp:accordion-heading -->
 
 				<!-- wp:accordion-panel -->
