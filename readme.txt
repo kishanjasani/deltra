@@ -15,7 +15,7 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 
 == Changelog ==
 
-= 2025.01.XX - version 1.0.12 =
+= 2026.02.02 - version 1.0.12 =
 * New: Add PO file for theme language translation
 * New: Brand Showcase pattern - Logo grid showcasing featured brands, partners, or media mentions
 * New: Brand Showcase Dark pattern - Dark-themed variant of the brand showcase with brand logos
@@ -43,13 +43,13 @@ Deltra is a WordPress block theme ready and able to be the foundation for your n
 * New: Voice of Customers - Grid Dark pattern - Dark-themed customer testimonials grid layout
 * Update: Translation files
 
-= 2025.01.10 - version 1.0.11 =
+= 2026.01.10 - version 1.0.11 =
 * New: Column block variations
 * New: Post template grid layout enhancements
 * New: Post template utility classes (has-post-image-tall, align-left-mobile)
 * New: FAQ Section pattern with accordion blocks
 
-= 2025.01.01 - version 1.0.10 =
+= 2026.01.01 - version 1.0.10 =
 * New: Quote block variations
 
 = 2025.12.02 - version 1.0.9 =
